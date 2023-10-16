@@ -58,3 +58,22 @@ Exemples :
 - Comparer les indicateurs de satisfaction de qualité de service d’une année sur l’autre.
 
 ### Définir le périmètre
+
+Voici l’étape qui installe le projet dans son cadre. Le périmètre du projet définit sa portée, ses limites théoriques en quelque sorte, et on précise pour cela ce qu’est le projet, ainsi que ce qu’il n’est pas.
+
+Comment procéder ?
+
+Une première approche consiste à lister ce qu’est le projet, en détaillant (un peu) les objectifs, puis à lister quelques éléments réputés hors périmètre. Cette méthode, qui peut paraître empirique, est néanmoins employée dans nombre de cahiers des charges et autres appels d’offres, preuve s’il en est de son efficacité en dehors de tout formalisme standardisé.
+
+Une deuxième approche nécessite de réaliser une estimation grossière pour calibrer le projet, déterminer son coût approximatif, sur la base d’un nombre de jours de réalisation ou d’un budget financier plus étayé. Toutes les techniques d’estimation sont pertinentes à ce stade, par comparaison, par analyse, par abaque… Même dans le cas des projets évolutifs ou agiles, on devra de toute façon encadrer le nombre de jours consacrés au projet.
+
+L’estimation du nombre de jours à passer sur le projet est déterminante.
+
+D’une part, elle donne une indication sur l’étendue des demandes. A-t-on suffisamment de matière pour déclencher un projet ? Et aussi, n’a-t-on pas vu trop grand ? D’autre part, l’estimation va être convertie en montant financier, c’est l’enveloppe nécessaire à la réalisation du projet. Si le budget n’est pas garanti, alors le projet ne pourra pas se faire. L’estimation des charges fournit aussi une indication du temps que mettra l’équipe pour réaliser le projet avec un niveau de qualité standard, c’est-à-dire en disposant de périodes de spécifications, de tests, de documentation…
+
+Quel est le bon équilibre entre l’étendue des demandes, le délai de réalisation, le coût du projet et le niveau de qualité ? Cela peut varier d’un projet à l’autre en fonction des enjeux du projet. On peut privilégier le délai de réalisation pour sortir rapidement un nouveau produit ou bien insister sur la qualité ou la richesse fonctionnelle pour se démarquer d’un produit existant. Le coût peut être aussi un élément primordial du projet.
+
+La matrice QCD (Qualité, Coût, Délai) représente ces différentes dimensions. On ne peut pas tout optimiser simultanément, mais si on fixe certaines exigences, alors les autres sont des axes de compensation (trade-off) pour rendre l’équation soluble.
+Le coût dépend beaucoup du délai global pour mener le projet ; mais des périodes où l’activité est réduite peuvent être mises à profit pour diminuer le nombre de personnes affectées au projet et en fin de compte réaliser des économies sur le long terme.
+
+Le niveau de qualité exigé sur le produit du projet influe à la fois sur les délais et sur le coût. Il faut envisager la qualité comme un niveau de performance à atteindre et pas seulement comme un nombre de défauts plus ou moins visibles, voire acceptés.
