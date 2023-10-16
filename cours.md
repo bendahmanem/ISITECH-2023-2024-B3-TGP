@@ -87,3 +87,27 @@ L’équipe dispose de six mois pour réaliser le projet de création d’un mod
 La priorité doit être donnée à la maîtrise du budget et à la fiabilité des calculs, mais la vitesse des calculs n’est pas l’exigence première.
 
 ![Alt text](image.png)
+
+## Elaborer le projet
+
+### Dimensionner le projet
+
+On se rapproche tout doucement de la phase operationnelle du projet. C'est le moment de proceder au casting de l'equipe de realisation.
+
+Loin de se limiter à la question du délai global, le dimensionnement se préoccupe de bien d’autres domaines comme les compétences requises, le contexte particulier (économique, stratégique, réglementaire…), le degré d’industrialisation ou au contraire la part de recherche et développement.
+
+Dimensionner le projet, c’est prévoir quelles ressources seront affectées sur quelles durées.
+
+On parle en premier lieu des ressources matérielles (ordinateurs, serveurs, d’autres types d’équipement), d’actifs logiciels (licences, applicatifs) ou encore de services logiciels (stockage, entrepôts de code sources, services Cloud…).
+
+Le chef de projet va commencer à répertorier et orchestrer l’emploi de ces ressources, cela va servir de base à la construction du budget.
+
+Pour mener à bien cette cartographie des ressources, le chef de projet définit l’échelle temporelle : le délai global du projet se compte en jours, en semaines, en mois ou en années. L’affectation des ressources et leur coût unitaire se fait en minutes, en jours, en semaines, etc. Cette échelle est variable d’une ressource à l’autre, certains services SaaS (software as a service, accès locatif à des services logiciels) sont facturés à la seconde tandis que l’acquisition d’un serveur de calcul peut être amortie sur plusieurs mois.
+
+Exemple d'estimation :
+
+Le chiffrage atteint 240 jours à fournir avec une équipe de 6 personnes affectées à temps plein sur le projet. En moyenne, chaque personne travaillera 240 / 6 = 40 journées. Empiriquement, la durée du projet est de 40 / 5 = 8 semaines de réalisation.
+
+À partir de cette base théorique où toutes les tâches sont indépendantes et peuvent être réalisées en parallèle, le chef de projet précise le plan de charge. De façon plus réaliste, la durée du projet s’allonge de deux à trois semaines pour tenir compte notamment des dépendances entre tâches et de la disponibilité individuelle des équipiers.
+
+### Constituer l'équipe
