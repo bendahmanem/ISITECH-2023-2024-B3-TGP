@@ -39,3 +39,22 @@ Exemples :
 - Maximiser l’indice de satisfaction concernant la qualité de service.
 
 - Rendre compte aux usagers de l’évolution de l’indice de satisfaction et des actions réalisées.
+
+### Formuler les objectifs
+
+Les objectifs du projet fixent dans les grandes lignes les besoins en reformulant les enjeux des réalisations à venir. Définir les objectifs, c’est répondre à la question : « que veut-on obtenir ? ».
+
+À ce stade, on évoque le futur produit mais on ne parle pas encore de la façon d’y parvenir. Soulignons que même dans le cadre des méthodes agiles qui s’accommodent fort bien d’un besoin évolutif (voir le chapitre Rendre les projets agiles), il existe une étape de projection vers un résultat recherché, et ceci à chaque sprint (voir le chapitre Rendre les projets agiles).
+Cette démarche de projection fait donc abstraction des contraintes habituellement mises en avant par les équipes de réalisation ; au contraire, conditionner l’atteinte d’un objectif à telle ou telle difficulté a pour conséquence d’introduire des facteurs de surcoût dès le début du projet.
+
+L’énoncé des objectifs est à la fois simple - puisque l’on doit s’affranchir des contraintes - mais n’est pas naturel. Les équipes de réalisation ont tendance à s’autolimiter, tout comme les demandeurs, de peur d’obtenir une estimation (également appelée chiffrage) astronomique, laquelle remettrait en cause l’ensemble du projet.
+
+Exemples :
+
+- Publier les rapports de satisfaction de qualité de service.
+
+- Mesurer la satisfaction de qualité de service après chaque transaction.
+
+- Comparer les indicateurs de satisfaction de qualité de service d’une année sur l’autre.
+
+### Définir le périmètre
