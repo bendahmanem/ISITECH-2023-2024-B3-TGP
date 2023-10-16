@@ -111,3 +111,24 @@ Le chiffrage atteint 240 jours à fournir avec une équipe de 6 personnes affect
 À partir de cette base théorique où toutes les tâches sont indépendantes et peuvent être réalisées en parallèle, le chef de projet précise le plan de charge. De façon plus réaliste, la durée du projet s’allonge de deux à trois semaines pour tenir compte notamment des dépendances entre tâches et de la disponibilité individuelle des équipiers.
 
 ### Constituer l'équipe
+
+La constitution de l’équipe projet est une affaire de personnes, d’alignement des compétences entre les besoins et les disponibilités, mais aussi un acte de management. Réunir une équipe, c’est fédérer des compétences autour d’un projet et entretenir la motivation pour atteindre ses objectifs.
+
+Or, certains rôles complémentaires ont des modes de fonctionnement parfois opposés : le développeur code rapidement tandis que le testeur prend le temps d’éprouver une à une les fonctionnalités. Dans son rôle de leader, le chef de projet est à la fois le gardien du niveau de qualité défini (au sens de la complétude des livrables et de leur conformité) mais aussi le manager d’une équipe.
+
+Sans concéder aux exigences de qualité et de performances, la constitution de l’équipe tient compte des personnalités et du respect d’un « savoir travailler » ensemble. Il y a ainsi des combinaisons de personnes qui fonctionnent mieux que d’autres.
+
+La taille de l’équipe dépend beaucoup de l’organisation (de l’entreprise) en charge du projet ; toutes les compétences sont-elles disponibles ? Des recrutements sont-ils nécessaires et envisageables, en embauche ou en prestation ? Le recrutement, y compris d’un prestataire, peut prendre du temps et retarder le projet. Dans certains cas, le chef de projet doit bien entendu prendre un risque calculé en prenant en compte la durée du projet, les coûts de personnel et les compétences nécessaires à la réalisation du projet.
+
+Exemple :
+
+Ce projet de développement logiciel réclame des compétences métiers spécifiques. Trois personnes dans l’organisation sont identifiées pour participer. Jocelyn est un expert, il a une vision très claire du métier, il est reconnu pour ses compétences mais se montre parfois intransigeant si on n’adhère pas entièrement à son point de vue. Romy a rejoint l’entreprise l’an dernier, elle n’a pas encore participé à des projets de ce type mais elle s’est montrée très intéressée lors de la présentation du projet. Enfin, Khalid est une valeur sûre, rompu à la réalisation de ce type de solutions mais très sollicité, il est en quelque sorte victime de son succès !
+
+Le chef de projet pourrait d’abord proposer à Romy de rejoindre l’équipe. Bien que moins expérimentée, sa motivation sera un atout. Par ailleurs, il serait dommage que Khalid accepte de participer alors que ses autres projets l’accaparent. Enfin, il a été porté à la connaissance du chef de projet que Jocelyn ne s’entend pas avec l’équipe de développement.
+
+### Commencer le projet
+
+Qu’est-ce qui matérialise le projet ? Ce n’est pas la production de livrables ou la distribution de consignes ni même l’établissement d’un planning. Il faudra bien s’y mettre, mais un projet n’existe pas sans gouvernance et sans moyens d’atteindre l’objectif.
+
+La gouvernance du projet constitue son cadre de décision, c’est une convention passée avec les parties prenantes. Le chef de projet est chargé de piloter des ressources (humaines, matérielles, budgétaires) engagées pour réaliser quelque chose. La gouvernance fixe les règles du jeu et en particulier les instances de pilotage du projet. On parle parfois de comitologie pour définir les réunions, les participants, les objectifs, les moyens…
+Quand la convention de gouvernance est passée, elle s’applique aussitôt ; le projet démarre.
