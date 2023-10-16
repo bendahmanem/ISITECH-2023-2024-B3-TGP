@@ -77,3 +77,13 @@ La matrice QCD (Qualité, Coût, Délai) représente ces différentes dimensions
 Le coût dépend beaucoup du délai global pour mener le projet ; mais des périodes où l’activité est réduite peuvent être mises à profit pour diminuer le nombre de personnes affectées au projet et en fin de compte réaliser des économies sur le long terme.
 
 Le niveau de qualité exigé sur le produit du projet influe à la fois sur les délais et sur le coût. Il faut envisager la qualité comme un niveau de performance à atteindre et pas seulement comme un nombre de défauts plus ou moins visibles, voire acceptés.
+
+Exemples :
+
+Dans le domaine réglementé des logiciels financiers, la fiabilité des résultats est de rigueur.
+
+L’équipe dispose de six mois pour réaliser le projet de création d’un module de calcul d’amortissements, ce qui paraît adéquat pour une charge estimée à quatre-vingts jours-hommes. Plusieurs algorithmes de calcul sont disponibles sur le marché, certains sous licence commerciale se montrent très efficaces pour fournir instantanément leurs résultats.
+
+La priorité doit être donnée à la maîtrise du budget et à la fiabilité des calculs, mais la vitesse des calculs n’est pas l’exigence première.
+
+![Alt text](image.png)
