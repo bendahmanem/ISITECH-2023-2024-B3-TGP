@@ -396,3 +396,20 @@ Les indicateurs lies au budget
 Au cours d’un exercice, le chef de projet mesure d’abord le niveau d’engagement de son budget, c’est-à-dire le rapport entre les montants consommés et la dotation originale. Ceci l’aide à contrôler si les dépenses s’effectuent avec un rythme compatible aux prévisions, voire à détecter des dépassements de budget ou au contraire voir si des économies définitives ont pu être réalisées.
 
 ![Alt text](image-3.png)
+
+### Le modele economique
+
+Le modèle économique est un choix marketing qui influence grandement la dynamique du chiffre d’affaires. Voici quelques exemples de business models liés aux solutions logicielles.
+
+a. Licence et maintenance
+C’est l’approche la plus répandue. Le client s’acquitte d’un droit initial d’usage (la licence utilisateur) et d’une maintenance périodique (annuelle par exemple) d’un montant généralement compris entre 15 % et 25 % du prix de la licence.
+
+Les opérations d’installation et la formation sont le plus souvent facturées séparément de la licence et n’entrent pas dans le cadre de la maintenance. Cette dernière regroupe les mises à jour correctives et évolutives de la solution, ainsi que l’assistance aux utilisateurs (support).
+
+Lorsque le client est dégagé de ses obligations de souscription à la maintenance, il poursuit l’exploitation de sa solution, même si celle-ci n’est plus mise à jour.
+
+b. L’abonnement (SaaS)
+Dans le modèle par abonnement, le client s’acquitte périodiquement d’un droit d’usage de la solution. Le non-paiement des redevances provoque la rupture du contrat et entraîne l’arrêt des services ; ce modèle est appelé Software as a Service (SaaS) car, pour le prestataire, la meilleure solution pour s’assurer que l’ex-client n’accède plus à la solution consiste à déporter les données et l’application hors des murs de ce dernier. Le modèle SaaS est donc bien adapté aux solutions Internet.
+
+c. Le modèle transactionnel (Pay as you go)
+Dans cette approche, le système est relativement ouvert et incite l’utilisateur à consommer des services ; ceux-ci sont comptabilisés en fonction de l’usage selon un modèle prépayé ou au contraire facturés a posteriori. L’unité de facturation, la transaction, a donné son nom au modèle transactionnel que l’on appelle aussi Pay as you go.
