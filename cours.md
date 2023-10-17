@@ -324,3 +324,57 @@ d. Le plan de charge financier
 En mode régie, la facturation est souvent mensuelle avec des conditions de paiement de trente à soixante jours. Le plan de charge est ainsi assez facile à prévoir sur la durée du projet.
 
 Au forfait, la proposition prévoit un échéancier de paiement avec une première tranche à la commande (souvent entre 10 % et 30 %), les tranches suivantes coïncidant avec les principaux jalons et le solde conditionné par la recette (entre 20 % et 30 %).
+
+2. Les prestations d’hébergement
+   Les applications informatiques nécessitent des ressources matérielles pour être exploitées ; compte tenu des contraintes de sécurité, d’accès, de maintenance et de conformité au référentiel technique, le choix d’une solution externe peut s’avérer économiquement rentable face à un hébergement maison, en apparence moins onéreux, mais qui n’offre pas toujours le même niveau de service et de performance.
+
+Les configurations ont parfois besoin d’évoluer au cours du temps et la facilité à monter en puissance, ou au contraire à réduire la voilure, est devenue une composante primordiale de la structure du coût d’hébergement. Cette composante peut facilement majorer celle liée à la puissance intrinsèquement disponible.
+
+Les modes d’hébergement
+
+L’essor des solutions matérielles virtualisées a considérablement simplifié les opérations de redimensionnement de l’infrastructure. Par rapport à une solution basée sur des machines dédiées, il est commode d’augmenter la quantité de mémoire, l’espace disque ou le nombre de processeurs alloués. On peut donc « forfaitiser » l’hébergement et prévoir des paliers pendant lesquels l’infrastructure sera stable et capable de servir les utilisateurs dans des conditions acceptables.
+
+Lorsque cette technique ne suffit plus, ou si la fréquence des opérations de changement de capacité de l’infrastructure s’avère importante, il faut envisager les solutions de type Cloud. Dans cette approche, on paye « au compteur » la consommation réelle, le système garantissant l’adéquation de la charge et de la puissance disponible. 3. Le plan de charge financier
+Le plan de charge est très largement conditionné par le nombre d’utilisateurs ; dans le cas des applications externes, il convient d’encadrer au cours du temps le nombre d’utilisateurs par des valeurs minimum - en dessous desquelles le coût fixe de l’infrastructure est prohibitif - et des valeurs maximum au-delà desquelles les performances sont dégradées.
+
+La reconfiguration de l’infrastructure représente un coût récurrent qu’il faut à tout prix optimiser avec l’aide du prestataire chargé de l’hébergement.
+
+4. Les prestations d’exploitation et de maintenance
+   L’exploitation d’une solution et la maintenance de l’infrastructure sont également externalisables. Les administrateurs en charge de ces opérations ne sont pas nécessairement employés par le prestataire en charge de l’hébergement.
+
+Les opérations courantes sont :
+
+la gestion des utilisateurs (mots de passe, enregistrement…),
+
+la surveillance des serveurs (monitoring, supervision),
+
+la mise à jour des systèmes et réseaux,
+
+la mise à jour des applications,
+
+les sauvegardes, restaurations,
+
+la fourniture de rapports, de diagnostics,
+
+les interventions en cas de panne matérielle.
+
+Le plan de charge financier s’articule autour d’un coût initial (setup), d’un montant forfaitaire annuel et d’un volet en régie en cas de situation particulière (charge de travail plus importante, reconfiguration de l’infrastructure).
+
+5. Les prestations de support aux utilisateurs
+   Le support aux utilisateurs de niveau 1 (qualification des tickets, dépannages immédiats) et de niveau 2 (dépannage avancé) est souvent externalisé quand il s’agit d’une activité qui n’est pas le « cœur métier ». Le niveau 3, relevant de la détection d’anomalies ou de demandes d’évolutions, est gardé selon les situations au sein de l’organisation du commanditaire ou bien externalisé, par exemple chez le prestataire ayant réalisé l’application.
+
+La facturation du support aux utilisateurs est une base de régie avec des engagements de services (SLA) qui peuvent moduler à la hausse ou à la baisse les redevances. Les unités clés de facturation sont le nombre d’appels à traiter sur une période donnée, la durée moyenne des appels et la qualification des hotliners (liée à la complexité des appels). Le prestataire alignera un certain nombre de ressources dédiées au projet ou mutualisées selon le niveau de service, permettant de calculer le coût pour chaque période du projet.
+
+Le plan de charge financier de la fonction support doit prévoir les phases occasionnant des pics d’appels, comme les montées de version ou d’autres événements provoquant des afflux d’usagers, et par conséquent d’appels d’assistance de leur part.
+
+6. Les coûts refacturés
+   Les coûts refacturés sont à distinguer des redevances liées à l’usage même du produit ou du service. Il s’agit plutôt d’opérations ponctuelles comme de l’accompagnement à la prise en main de la solution, des formations, la personnalisation technique de la solution…
+
+Ces postes représentent des flux de trésorerie négatifs (l’exploitant de la solution avance des frais pour la livraison/prestation en question), compensés partiellement ou intégralement par des flux positifs (lorsque l’usager règle cette prestation).
+
+Même lorsque la somme des paiements égale la somme des charges, le décalage entre les règlements des fournisseurs et ceux des clients a un impact sur la trésorerie. C’est donc un élément important de la structure de coût du projet.
+
+7. Les coûts non liés à l’informatique
+   D’autres types de coûts sont également comptabilisés au titre du projet, comme les frais de commercialisation, de marketing, les moyens généraux, les frais de fonctionnement divers (documentation…).
+
+Certains de ces coûts sont assez simples à prévoir, alors que d’autres sont directement liés au modèle économique (business model). C’est notamment le cas des frais de commercialisation.
