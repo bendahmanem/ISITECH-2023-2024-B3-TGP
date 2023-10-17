@@ -132,3 +132,45 @@ Qu’est-ce qui matérialise le projet ? Ce n’est pas la production de livrabl
 
 La gouvernance du projet constitue son cadre de décision, c’est une convention passée avec les parties prenantes. Le chef de projet est chargé de piloter des ressources (humaines, matérielles, budgétaires) engagées pour réaliser quelque chose. La gouvernance fixe les règles du jeu et en particulier les instances de pilotage du projet. On parle parfois de comitologie pour définir les réunions, les participants, les objectifs, les moyens…
 Quand la convention de gouvernance est passée, elle s’applique aussitôt ; le projet démarre.
+
+## Cas d'etude pour les exemples de cours
+
+### Cas d'étude : projet de mise en place de CRM
+
+CRM: Customer Relationship Management
+
+1. Contexte
+
+La Société de **Conseil Plus** compte deux-cents personnes sur deux sites implantés dans de grandes villes, capitales économiques de leurs régions respectives. Les associés exercent une activité exécutive et en même temps opérationnelle. La société dispense des conseils aux professionnels, aussi les associés disposent d’une relative autonomie dans le développement de leurs affaires. La présidence tournante au sein du comité de direction vient de changer, et celle-ci, sur la recommandation de la direction administrative et financière, a fait le choix stratégique d’attaquer un nouveau marché du conseil.
+
+Ce choix implique le développement rapide de réseaux de clients et de prescripteurs, ainsi qu’une transformation rapide des opportunités en vente. La rentabilité viendra du volume d’affaires réellement mis en œuvre, chaque opération pouvant représenter plusieurs dizaines de comptes qui aujourd’hui sont traités un par un.
+
+La direction administrative et financière comprend le secrétariat général, le service communication et le service marketing. Les activités de conseil sont organisées en pôles, dirigés par des associés.
+
+La direction générale a chargé la DAF (directrice administration et finances) de mettre en œuvre la constitution d’une base de données « gestion de la relation client » qui soit orientée vers le développement de réseaux et l’analyse d’opportunités.
+
+2. Besoin exprimé
+
+La DAF a tenté de structurer par elle-même une base de données des contacts transmis par les associés dans leurs opérations de prospection (des cartes de visite, des mémos, des mails…), mais aussi à partir du fichier client. Il en résulte un listing comprenant plusieurs milliers de contacts, en grande majorité peu qualifiés. De plus, le circuit d’acquisition et d’enrichissement n’est pas bien rodé, et de nombreux contacts font l’objet d’un traitement manuel (qualification, mise à jour, recoupement, recherche d’antériorité, suppression des doublons…).
+
+Durant le dernier comité de pilotage, la DAF a recommandé d’orienter le projet sur une autre approche, la mise en œuvre d’un outil de CRM, dans le but évident de ne pas réinventer quelque chose qui existe par ailleurs. Outre les fonctionnalités standards d’un tel outil (gestion des contacts, analyse multicritère, suivi des opérations commerciales…), des critères de simplicité et d’efficacité, de polyvalence, d’intégration avec les outils bureautiques et les équipements mobiles ont été retenus.
+
+Le projet piloté par la DAF est confié à Annie, responsable du marketing, laquelle est nommée chef de projet.
+
+3. Cadre du projet
+
+Des consultations sont lancées auprès d’éditeurs de logiciels et d’intégrateurs de solutions CRM. Le comité de pilotage a proposé une mise en œuvre dans les six mois qui suivent la sélection d’un fournisseur. Le processus de sélection est prévu pour une durée de deux mois.
+
+La DAF n’a pas encore budgété cette opération qui se déroulera sur le prochain exercice. Elle envisage de consulter trois à quatre prestataires et de mettre en compétition les deux meilleurs suivant la méthode dite de dialogue compétitif.
+
+La chef de projet sera assistée de Guillaume, responsable système, employé par une société de services informatiques détenue partiellement par la Société de Conseil Plus.
+
+Annie et Guillaume entreprennent la rédaction d’un cahier des charges reprenant les besoins fonctionnels identifiés ainsi que les contraintes techniques connues. Ce document d’une quinzaine de pages a été soumis à la DAF avant que les premiers contacts soient initiés auprès des fournisseurs potentiels.
+
+4. les enjeux du projet
+
+La décision stratégique d’investir de nouveaux marchés résulte de l’analyse d’un business qui évolue. Les interactions sont plus courtes et plus fréquentes. Hommes d’affaires aguerris, les associés sentent le vent tourner et veulent capter un marché structuré qui pourrait se déliter en petits morceaux, faisant les beaux jours d’acteurs éphémères et nettement moins importants. La présidence compte bien assoir la société sur la plus haute marche du podium et conforter sa place de leader au sein du board.
+
+Avisée, la DAF réalise l’impérieuse nécessité d’améliorer la productivité dans un domaine resté jusque-là très indépendant des processus habituellement sous son contrôle. C’est aux associés que revient la tâche de développer les affaires, c’est à la DAF de fournir des outils adaptés. De fait, la détermination de la rentabilité (ROI ou Return On Investment) sera délicate à établir et à partager avec le board.
+
+Annie, la chef de projet, a vite décelé l’opportunité d’élargir son champ de responsabilité, y compris après le franchissement de l’étape lancement. Guillaume, même s’il ne perçoit pas la visée stratégique du projet (celle-ci n’a pas été dévoilée en dehors du board), y voit un moyen de renforcer la coopération entre son entreprise et la Société de Conseil Plus, à la fois actionnaire et cliente.
