@@ -214,3 +214,51 @@ Jérôme a d’ailleurs été retenu comme chef de projet car il connaît déjà
 Chaque directeur suit son propre rythme, ajoute ses contraintes, dispose déjà de ses indicateurs, et le chef de projet comprend ainsi le sens de sa mission : trouver une organisation qui fédère et rationalise différentes approches ad hoc du pilotage.
 
 C’est donc un projet dans lequel la dimension métier et le relationnel sont au premier plan. Plus coutumier de projets à dominante technologique, Jérôme dispose d’un tremplin pour progresser.
+
+### Creation d'un site e-commerce
+
+Stéphanie a passé plusieurs années dans une ESN (entreprise de services du numérique) de renommée mondiale. Elle y a occupé différents postes jusqu’à obtenir celui de manager. Fonceuse et charismatique, son équipe n’a pas hésité à la suivre lorsqu’elle a annoncé son départ pour fonder le site de vente en ligne On’Troc.
+
+Son projet est le fruit d’une discussion impromptue avec Yves, un dirigeant de la société de services, qui lui a fait découvrir le modèle économique des startups et indiqué que des fonds pourraient être injectés par l’incubateur si elle présentait un cas d’affaire (business case). Quelques nuits de travail acharné plus tard, le plan était cadré et étudié en avant-première par Yves. Celui-ci observa que le projet de Stéphanie était à la fois audacieux, excitant et prometteur. Le fonds d’investissement serait prêt à débloquer des sommes conséquentes pour s’associer à l’essor commercial de la société dirigée par Stéphanie.
+
+Yves a mis Stéphanie en contact avec Ernest, consultant senior détaché du fonds d’investissement chargé d’affiner le projet. En effet, l’apport des conseils relatifs à la création de l’entreprise, son établissement et le recrutement d’une équipe sont aussi déterminants que la levée de fonds.
+
+a. Des moyens conséquents au service d’un projet unique
+Revenons au projet : le capital investi est assez important pour assurer deux ans de trésorerie avec cinq salariés. Toutes les prestations de recherche et développement de ventes sont sous-traitées pour ne pas représenter de charges fixes. Des locaux confortables et fonctionnels sont loués afin d’établir le siège social et d’accueillir collaborateurs, partenaires et fournisseurs.
+
+Les formalités de création de l’entreprise sont bouclées assez rapidement par Ernest, qui conduit la plupart des opérations administratives. Stéphanie se concentre sur la composition de son équipe. Ses collaborateurs actuels sont tellement performants qu’elle espère en débaucher un ou deux. Elle constate avec satisfaction que bien plus de candidatures issues de son équipe lui sont adressées.
+
+Secrétaire général officieux, Ernest a procédé à la rédaction des contrats de travail et il a recommandé une structure de rémunération très stimulante en regard de ce projet unique : la création d’une entreprise.
+
+b. De la stratégie au plan projet
+Stéphanie doit maintenant présenter le détail de sa stratégie et trouver avec son équipe un plan de réalisation adéquat. De nombreuses projections financières sont nécessaires, et quelques-unes d’entre elles sont validées par le fonds d’investissement. Le capital n’est en effet pas complètement libéré et un contrôle très strict des engagements financiers est opéré par l’incubateur. Celui-ci fait un peu office de banquier et il entend compenser les risques pris par une visibilité sur la rentabilité de l’affaire.
+
+Au bout de quelques semaines, le plan se dessine et la proposition de valeur est détaillée au comité d’investissement. Suivront des études de marché et de nombreuses séances de simulation avant de pouvoir enfin envisager la phase de réalisation.
+
+Lorsque le lancement officiel a été prononcé, l’équipe, euphorique, s’est rapidement mise à la tâche. Enfin du concret !
+
+c. Les enjeux d’une équipe
+Les collaborateurs de Stéphanie ne sont pas venus chez On’Troc par hasard. Ils ont été attirés par le défi de la création d’une entreprise où l’esprit pionnier est une valeur partagée, où tout est à inventer.
+
+Cependant, cette entreprise nouvelle est détenue par un groupe puissant et structuré. L’équipe va devoir composer avec les contraintes d’un contrôle financier très strict et trouver rapidement sa marge de manœuvre afin d’atteindre les objectifs qu’elle s’est fixés.
+
+Dans cet enchaînement d’étapes et de décisions, le but initial de Stéphanie s’est sans doute transformé. Partie pour « monter une affaire », elle doit maintenant se positionner comme chef d’entreprise et veiller à la pérennité de celle-ci.
+
+Venus offrir leurs compétences opérationnelles, ses collaborateurs ont l’opportunité d’évoluer et de devenir de futurs directeurs. Les caractères et les ambitions personnelles vont bientôt se révéler. Il faudra à Stéphanie de la clairvoyance, elle devra compter sur toutes ses qualités de manager pour offrir le meilleur à sa nouvelle équipe.
+
+### Creation d'une appli Sport
+
+Quatre copains poursuivent le même but, se lancer des défis sportifs relevés. Ils ont tout essayé ou presque : le kitesurf, le ski de randonnée, la plongée sous glace, le trek en altitude… Désireux de partager et de monétiser leurs découvertes, la petite entreprise fondée il y a quinze mois est déjà très productive. Le nombre d’abonnés aux posts spectaculaires dévoilant des spots inédits attire déjà des sponsors.
+
+a. Le défi d’une bande de passionnés
+Assez rapidement, l’idée d’un moyen de communication électronique s’est imposée. Comment proposer des lieux originaux, élargir le nombre de sites visités sans avoir à recruter et à financer de coûteuses collaborations ? La priorité est de disposer d’une application pour mobiles, seul support vraiment adapté. Toutefois, les contours du projet de développement ne sont pas précisément arrêtés.
+
+L’équipe, constituée de deux informaticiens et de deux commerciaux, s’est mis en tête de transformer cette expérience en revenus financiers. Dans une phase pionnière, le niveau de rentabilité attendu est assez facile à atteindre.
+
+Pour résumer le cas d’affaires, il s’agit d’un développement informatique où tout est à inventer, à définir, et pour lequel les contraintes sont contournées plus que parquées dans des listes à épuiser dans de laborieuses réflexions.
+
+b. Un projet à la mesure de sa communauté
+L’équipe est convaincue que la valeur du projet tient dans la rapidité de sa croissance. Autrement dit, le code source est accessible dans le cadre d’un contrat de licence open source, et la communauté de développeurs devient le levier d’accélération. Ce principe de développement privilégie tout naturellement une organisation agile pour un projet en constante évolution, dont le périmètre correspond à la somme de ses contributions.
+
+c. Développer et grandir avec la technologie
+Dans un tel projet, les changements de cap sont fréquents et s’accompagnent de ruptures technologiques, de modifications radicales de la pile technique (ensemble des frameworks et composants logiciels qui composent l’architecture). La maîtrise du risque au sens informatique devient un élément central de pilotage. La valorisation de cette jeune entreprise dépend d’ailleurs largement de sa capacité à faire aboutir le projet.
