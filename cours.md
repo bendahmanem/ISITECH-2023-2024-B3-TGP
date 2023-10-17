@@ -262,3 +262,65 @@ L’équipe est convaincue que la valeur du projet tient dans la rapidité de sa
 
 c. Développer et grandir avec la technologie
 Dans un tel projet, les changements de cap sont fréquents et s’accompagnent de ruptures technologiques, de modifications radicales de la pile technique (ensemble des frameworks et composants logiciels qui composent l’architecture). La maîtrise du risque au sens informatique devient un élément central de pilotage. La valorisation de cette jeune entreprise dépend d’ailleurs largement de sa capacité à faire aboutir le projet.
+
+## Aspects financiers et juridiques d'un projet
+
+### La structure de cout d'un projet
+
+Que l’on imagine un projet se dérouler au sein d’une société de services informatiques, chez un éditeur de logiciels, un intégrateur ou toute autre structure, les conditions économiques et financières sont omniprésentes et sous-tendent l’intégralité de l’activité. On a coutume de dire « pas de budget, pas de projet » pour rappeler que nul projet ne peut exister sans dotation.
+
+Le chef de projet est au centre d’un dispositif qui consomme des ressources pour atteindre un but. Ce qui est finalement livré représente une valeur perçue par le commanditaire du projet. S’il s’agit d’un logiciel, celui-ci est par exemple vendu à ses utilisateurs et le commanditaire reconnaît un montant financier compatible avec les efforts et les espoirs (rendement) qui ont rendu possible la réalisation du projet.
+
+Le cas des ouvrages « internes » n’est pas différent et, là encore, le chef de projet assure une double charge. Il doit d’abord évaluer l’ensemble des charges financières du projet (réalisation, exploitation, maintenance…) pour le comparer à ce qui pourrait être obtenu grâce à un dispositif externe. Il doit ensuite gérer au mieux son projet pour le conduire conformément aux prévisions.
+
+La structure de coût projette sur un horizon temporel des postes de coûts fixes ou récurrents. L’échelle de temps dépend de la durée du projet, incluant l’exploitation de son produit, voire les réinvestissements.
+
+a. Les salaires et prestations de réalisation
+Ces postes représentent fréquemment jusqu’à 75 % des coûts d’un projet, en tous les cas sur la première année et jusqu’à ce que le produit rentre en maintenance. On considère généralement des montants chargés (+65 % du montant net) pour les salaires internes et des montants incluant les marges (markup) quand on se trouve du côté SSII (société de service et d’ingénierie informatique).
+
+À compétence égale, le coût d’une SSII est un peu supérieur puisqu’il intègre la marge commerciale ainsi qu’une marge assurant le prestataire en cas d’intercontrats. Le markup (taux de marge) global se situe fréquemment à 1,6 (60 % plus important qu’un salaire). L’intercontrat - la période au cours de laquelle les ressources ne sont pas en mission - est une composante du risque qui peut servir de levier pour négocier un projet.
+
+Des grilles de coûts
+
+Les coûts d’une ressource dépendent des éléments suivants :
+
+Le domaine de compétence (développeur, administrateur, architecte, graphiste…).
+
+Le niveau de qualification et le degré d’expérience (débutant, confirmé ou expert).
+
+Le champ d’application des compétences au sein du projet (c’est-à-dire l’adéquation entre les compétences proposées et les besoins du projet, ou encore le degré de connaissance de l’objet du projet).
+
+Le salaire de la ressource (peut être lié à la durée de la carrière).
+
+Le niveau de service pour le projet.
+
+Les modalités d’emploi (sur site en régie, au forfait, en offshore - à l’aide d’une équipe délocalisée…).
+
+Le chef de projet peut consulter des barèmes, publiés par la presse informatique ou par les cabinets de recrutement, pour situer sa structure de coûts ; ces grilles de coûts sont périodiquement actualisées et sont une base importante pour évaluer la fiabilité d’un chiffrage.
+
+b. Négocier les coûts journaliers en régie
+La négociation doit s’effectuer lorsque le périmètre exact du projet est connu, car le coût est principalement lié au nombre de jours nécessaires à sa réalisation. La durée de l’engagement est un levier de négociation important : meilleure est la visibilité du prestataire sur le plan de charge futur de ses ressources, moins l’hypothèse d’intercontrats est justifiée. On peut donc gagner jusqu’à 20 % du prix jour par ce biais. Pour arriver à ce résultat, le commanditaire peut chercher à mutualiser ses commandes pour allonger la période d’intervention du prestataire.
+
+Puisqu’en régie tous les paramètres sont connus et partagés par les parties - prestataire et commanditaire - ce dernier peut ajuster le prix en modulant ses exigences : qualité des intervenants, niveau de service, modalités d’exécution…
+
+La démarche de négociation doit rester équilibrée et source de valeur pour toutes les parties ; le cas d’un périmètre incertain, d’une impossibilité à aligner des profils adéquats, des indisponibilités de planning, etc. conduira à une impasse commerciale, sinon à de grandes difficultés lors de la réalisation du projet qui s’interrompra en échec.
+
+c. Négocier les prestations au forfait
+Le cas des prestations au forfait est un peu plus délicat car le risque est souvent l’inconnue de l’équation du commanditaire. À périmètre identique, celui-ci peut recevoir des propositions à des montants différents, selon l’appréciation du risque et selon sa répartition entre le prestataire et le commanditaire.
+
+La démarche de négociation vise à identifier la part de risque du projet et à modifier sa répartition entre les parties. Ainsi, la principale variable d’ajustement est le niveau de service (on dit aussi niveau d’engagement ou service level agreement - SLA).
+
+Le commanditaire doit donc surveiller les éléments clés de la proposition :
+
+Les périodes de récupération sur le planning (si elles sont inexistantes, le risque lié à un retard est plus important et une clause prévoit sans doute des rétro-pénalités ou des limitations de responsabilité et de service).
+
+Les métriques pour franchir les jalons (nombre d’anomalies, périodes de décompte des anomalies, livrables…).
+
+La répartition des rôles au cours des phases du projet (formulées comme des exigences du prestataire vis-à-vis du commanditaire quant à la fourniture d’informations dans un délai strict, de consignes, de spécifications, de plans de tests…).
+
+L’approche classique, surtout valable avec un prestataire que l’on connaît, consiste à demander une proposition « sans contraintes » (du moins, elles ne sont pas formulées). Dans cette approche, le niveau de risque est faible et le prestataire aura sans doute maximisé ses marges commerciales. On demande ensuite des ajustements successifs pour introduire les principales contraintes (durée, budget, répartition des rôles…) et la zone de risque va progressivement apparaître. Lorsque le niveau de risque semble acceptable au commanditaire (le prix « virtuel » a baissé car le risque initialement à la charge du prestataire a été transféré), on peut demander une remise commerciale motivée par des efforts du commanditaire (partenariat commercial, nombre de commandes passées, arrangements sur l’échéancier de paiement…). Si le prix réel n’a pas baissé avant la remise commerciale, le commanditaire peut raisonnablement augmenter le périmètre de son projet à niveau de risque égal, ainsi toutes les parties s’y retrouvent.
+
+d. Le plan de charge financier
+En mode régie, la facturation est souvent mensuelle avec des conditions de paiement de trente à soixante jours. Le plan de charge est ainsi assez facile à prévoir sur la durée du projet.
+
+Au forfait, la proposition prévoit un échéancier de paiement avec une première tranche à la commande (souvent entre 10 % et 30 %), les tranches suivantes coïncidant avec les principaux jalons et le solde conditionné par la recette (entre 20 % et 30 %).
