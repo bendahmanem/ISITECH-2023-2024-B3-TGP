@@ -378,3 +378,21 @@ Même lorsque la somme des paiements égale la somme des charges, le décalage e
    D’autres types de coûts sont également comptabilisés au titre du projet, comme les frais de commercialisation, de marketing, les moyens généraux, les frais de fonctionnement divers (documentation…).
 
 Certains de ces coûts sont assez simples à prévoir, alors que d’autres sont directement liés au modèle économique (business model). C’est notamment le cas des frais de commercialisation.
+
+### La constitution d'un budget
+
+Les budgets synthétisent les différents plans de charge financiers d’un projet et comptabilisent, sur une échelle de temps cohérente, l’ensemble des charges nécessaires à la mise en œuvre de tous les projets d’une organisation. De cette façon, les directions ont une vision complète de la situation à venir et procèdent aux dotations des projets ou au contraire à des arbitrages.
+
+Selon les cas, les périodes de référence vont du mois à l’année, sachant qu’une étude économique (business case) porte souvent sur plusieurs périodes. L’exemple ci-dessous définit le plan de charge financier d’une solution « Projet A » sur six semestres, soit trois années. Les investissements sont concentrés sur la première année, l’exploitation augmente progressivement avant de retomber ; un projet « de remplacement » aura été préparé pour prendre le relais.
+
+![Alt text](image-1.png)
+
+La vision budgétaire consolide ces plans de charge financiers en regroupant les lignes de coût par catégorie et par année :
+
+![Alt text](image-2.png)
+
+Les indicateurs lies au budget
+
+Au cours d’un exercice, le chef de projet mesure d’abord le niveau d’engagement de son budget, c’est-à-dire le rapport entre les montants consommés et la dotation originale. Ceci l’aide à contrôler si les dépenses s’effectuent avec un rythme compatible aux prévisions, voire à détecter des dépassements de budget ou au contraire voir si des économies définitives ont pu être réalisées.
+
+![Alt text](image-3.png)
