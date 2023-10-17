@@ -413,3 +413,107 @@ Dans le modèle par abonnement, le client s’acquitte périodiquement d’un dr
 
 c. Le modèle transactionnel (Pay as you go)
 Dans cette approche, le système est relativement ouvert et incite l’utilisateur à consommer des services ; ceux-ci sont comptabilisés en fonction de l’usage selon un modèle prépayé ou au contraire facturés a posteriori. L’unité de facturation, la transaction, a donné son nom au modèle transactionnel que l’on appelle aussi Pay as you go.
+
+### La projection financiere (hors programme)
+
+Un tableau projetant les coûts et les revenus sert de base à l’analyse financière. Celle-ci procède des flux de trésorerie entrants (revenus) et sortants (coûts). Les coûts dépendent de la structuration du projet et des modalités de son exploitation. Quant aux revenus, ils sont régis par le modèle économique (business model). Évidemment, chaque partie de la structure financière est également assujettie aux caractéristiques de l’autre. Le revenu ne peut démarrer que lorsque le projet est terminé et que le produit est disponible. Les modalités d’hébergement dépendent largement du modèle d’exploitation, lui-même fondé sur le modèle économique (SaaS…).
+
+On represente en details les **flux de tresorerie** (cash flow), qui nous permettent d'aboutir à une analye financiere detaillee (hors programme aussi)
+
+L’analyse financière prévoit les bénéfices (respectivement les pertes) du projet en fonction du rythme et de l’amplitude de ces mouvements. La trésorerie (cash-flow) résume les entrées et sorties d’argent au cours de la durée du projet. Il est courant d’avoir à fournir « un effort » plus important en début de projet, c’est-à-dire de produire du cash pour lancer et financer le projet. Au contraire, la trésorerie est souvent très positive sur la deuxième moitié du projet car les investissements en R&D (recherche et développement) sont limités et les ventes battent leur plein.
+
+![Alt text](image-4.png)
+
+Afin de rendre lisibles ces mouvements de trésorerie en dent de scie et d’accompagner des efforts de R&D conséquents, on a introduit le système d’amortissement des coûts et de reconnaissance du revenu : les coûts de réalisation (R&D) sont progressivement réintroduits dans le calcul de la marge (profit). La reconnaissance du revenu correspond quant à elle à un lissage du chiffre d’affaires mais nous ne l’avons pas détaillé dans le tableau suivant :
+
+![Alt text](image-5.png)
+
+### Le business case (hors programme)
+
+### Le suivi financier des projets
+
+#### Les comptes rendus d'activité
+Les comptes rendus d’activité (CRA) sont des instruments de mesure indispensables pour contrôler la bonne exécution du planning comme du budget de réalisation du projet. Ainsi, le chef de projet doit être sensibilisé aux aspects financiers et, plus encore, s’inscrire dans une démarche de maîtrise des coûts, au même titre que la qualité et les délais.
+
+### Aspect juridique
+
+#### La reglementation concernant les donnees personnelles RGPD
+
+La protection des données personnelles est devenue une priorité dans nombre de législations, accompagnant l’essor sans précédent du marché digital et de l’usage massif de données marketing. L’Union européenne applique depuis 2018 le règlement général de protection des données (RGPD ou GDPR en anglais), et beaucoup d’autres pays dans le monde ont adopté des législations similaires.
+
+Cette démarche responsabilise les organisations collectant des données personnelles en encadrant précisément leur usage et leur confidentialité. Les principes de la protection des données sont les suivants :
+
+Les données collectées sont la propriété des individus (data subject).
+Les organismes de contrôle de données (data controller) doivent limiter la collecte de données personnelles aux besoins d’un traitement légitime librement consenti par l’individu, lequel a au préalable reçu une information complète sur l’objet des traitements.
+Les organismes sous-traitants (data processor) exercent sous la responsabilité du contrôleur de données et doivent une transparence complète quant aux modalités d’accès et d’emploi des données (territorialité de l’hébergement, sécurité du stockage…).
+L’individu dispose d’un droit de consultation, de rectification ou de suppression de l’ensemble de ses données personnelles.
+
+Toute divulgation, altération ou vol de données personnelles doit être déclaré auprès des autorités compétentes, et les individus informés de cette situation.
+
+Le contrôleur de données a la responsabilité du respect de ces principes. En cas de manquement, il s’expose à de fortes pénalités, voire à des poursuites judiciaires. En particulier, les systèmes de stockage et de traitement des données personnelles ont l’obligation d’être sécurisés par conception (privacy by design). Cela signifie qu’un contrôleur de données ne saurait opposer le caractère obsolète, non sécurisé ou non conforme d’un applicatif pour justifier le non-respect de la législation en protection des données personnelles.
+
+Comme première conséquence, les applicatifs existants doivent être audités et mis à niveau, ce qui constitue souvent un projet à part entière.
+
+Bien entendu, tout projet de développement, d’intégration ou de mise en œuvre de données personnelles doit comporter un volet destiné à satisfaire aux législations relatives à la protection des données personnelles sur l’ensemble des territoires concernés.
+
+1. Que recouvre le terme de données personnelles ?
+   Toute donnée permettant d’identifier directement ou indirectement est considérée comme personnelle (personal information attribute). Il s’agit du nom, d’une adresse postale ou d’un email, d’un numéro de téléphone, d’un numéro d’assuré, d’un numéro de contrat ou même d’une plaque minéralogique.
+   Si la personne peut être identifiée en réalisant des recoupements dans une base de données, alors l’ensemble des attributs de recherche sont également considérés comme personnels.
+
+Bien entendu, les autres attributs rattachés à un individu entrent aussi dans la catégorie des données personnelles - informations géographiques, attributs sociaux-démographiques, religions, orientation sexuelle, donnée médicale, financière, mandat social ou électif…
+
+D’une manière générale, les législations en protection des données personnelles exigent que la collecte de telles informations soit limitée au strict nécessaire et que les bases de données soient sécurisées dans l’accès aux données, à leur stockage et leur manipulation.
+
+2. Des données personnelles conservées le temps d’effectuer des traitements
+   La collecte des données personnelles s’inscrit dans le cadre d’un traitement légitime, l’individu ayant formalisé son accord pour le recueil et le traitement. De ce fait, les données personnelles ne sauraient être conservées durablement à l’issue du traitement.
+
+Dans le cas d’un devis, si la prestation n’est pas engagée par le client, son identité et ses coordonnées doivent être effacés au-delà d’une certaine période (fin de validité du devis par exemple). Si la prestation est facturée, les règles de conservation s’appliquent dans le cadre financier et comptable  ; les données personnelles ne doivent pas être réutilisées pour constituer une liste de contacts à des fins de démarchage commercial.
+
+3. Le stockage des données personnelles et leur neutralisation
+   S’il est envisagé un stockage durable des données personnelles, au-delà du traitement légitime, les données doivent être à la fois protégées et neutralisées. La protection des accès sert à se prémunir de l’altération frauduleuse ou accidentelle des données personnelles ou de leurs captations. Toute infraction ou tentative d’infraction, toute divulgation doit être déclarée auprès des autorités compétentes.
+
+S’il n’est plus nécessaire de conserver les moyens d’identifier une personne, les attributs d’identification peuvent être effacés, anonymisés ou pseudonymisés. Ces opérations rendent impossible l’identification d’une personne à partir des attributs restants qui peuvent être utilisés de façon agrégée (donc non individuelle).
+
+4. Le registre des traitements
+   Le registre des traitements recense l’ensemble des traitements portant sur des données personnelles. Il existe dans toute organisation effectuant des traitements, que ce soit par le contrôleur de traitements (data controller) ou ses sous-traitants (data processor).
+
+Les modalités de chaque traitement y sont détaillées :
+
+Identification du traitement.
+
+Objet du traitement.
+
+Liste exhaustive des données mises en jeu.
+
+Durée du traitement.
+
+Recours à de la sous-traitance.
+
+Territorialisation des données.
+
+Modalités techniques de sécurisation des données.
+
+Durée de conservation des données.
+
+Modalités de sauvegarde.
+
+Modalités de neutralisation des données (effacement, anonymisation…).
+
+Le registre est actualisé à chaque modification de traitements. Il peut être demandé de le communiquer en cas d’audit.
+
+5. La territorialisation des données dans le cadre d’un projet de développement
+   Les réglementations en matière de protection des données personnelles s’appliquent sur un territoire défini. Cela a des conséquences sur l’hébergement des données dans les phases de développement comme de production.
+
+Le plus grand soin doit être apporté pendant le développement pour protéger les données personnelles et éviter leur diffusion incontrôlée.
+
+Par exemple, l’envoi de fichiers en clair par mail contrevient aux règles de sécurisation. Les fichiers doivent être cryptés par un mot de passe, et le mail pouvant être aisément retransféré, il convient de le supprimer après réception et traitement. Comme alternative, des solutions de messagerie sécurisée sont disponibles sur le marché.
+
+Les développeurs doivent aussi éviter de laisser des fichiers, bases de données, listings accessibles sans moyens de sécurisation adaptés. Et ces données personnelles ne peuvent être transférées en dehors du territoire sans appliquer les mêmes règles de protection des données.
+
+Pour ce qui relève de la production, les bases de données sont majoritairement situées sur des infrastructures Cloud, c’est-à-dire à la fois géorépliquées et fonctionnant sur des machines opérées en dehors des organisations qui contrôlent les données. On pourrait avoir le cas d’une entreprise située en France, ayant pour projet de confier ses bases de données personnelles à un acteur du Cloud ne proposant des hébergements qu’en dehors de l’UE, en Angleterre ou aux USA. Ce type d’hébergement extraterritorial ajoute des contraintes supplémentaires pour que le RGPD s’applique, il serait sans aucun doute plus simple de choisir un hébergement physiquement localisé en UE et limité à ce territoire. 6. La responsabilité des données au sein des organisations (alias le CDO)
+La diffusion des réglementations en matière de protection des données personnelles a fait émerger un nouveau rôle dans les organisations, le Chief Digital Officer (CDO). Il s’agit d’un rôle particulièrement important car la responsabilité pénale des dirigeants peut être engagée en cas de défaillance dans ce domaine.
+Le CDO assure le pilotage de l’ensemble des activités liées à l’utilisation et à la protection des données personnelles. C’est généralement la personne à prévenir en cas de perte, de divulgation ou d’altération des données (data breach), afin de coordonner le plan d’action (déclaration auprès des autorités compétentes, sécurisation des données, analyse d’impact…).
+
+C’est aussi le CDO qui veille à la bonne information des membres de l’organisation en matière de protection des données, définissant des programmes de formation et des procédures à appliquer au quotidien.
+
+Le Chief Digital Officer est naturellement devenu un interlocuteur clé dans la conduite de projets informatiques.
