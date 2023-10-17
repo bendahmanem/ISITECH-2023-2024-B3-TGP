@@ -135,7 +135,7 @@ Quand la convention de gouvernance est passée, elle s’applique aussitôt ; le
 
 ## Cas d'etude pour les exemples de cours
 
-### Cas d'étude : projet de mise en place de CRM
+### Cas d'étude : projet de mise en place de CRM
 
 CRM: Customer Relationship Management
 
@@ -174,3 +174,43 @@ La décision stratégique d’investir de nouveaux marchés résulte de l’anal
 Avisée, la DAF réalise l’impérieuse nécessité d’améliorer la productivité dans un domaine resté jusque-là très indépendant des processus habituellement sous son contrôle. C’est aux associés que revient la tâche de développer les affaires, c’est à la DAF de fournir des outils adaptés. De fait, la détermination de la rentabilité (ROI ou Return On Investment) sera délicate à établir et à partager avec le board.
 
 Annie, la chef de projet, a vite décelé l’opportunité d’élargir son champ de responsabilité, y compris après le franchissement de l’étape lancement. Guillaume, même s’il ne perçoit pas la visée stratégique du projet (celle-ci n’a pas été dévoilée en dehors du board), y voit un moyen de renforcer la coopération entre son entreprise et la Société de Conseil Plus, à la fois actionnaire et cliente.
+
+### Cas d'étude : developement d'une application de pilotage
+
+4U Production est une maison de production web fonctionnant par crowdfunding (financement participatif). Elle met en relation des internautes dans le but de financer des productions d’œuvres artistiques digitales. Lancée il y a quatre ans par un duo d’entrepreneurs audacieux, JP et Dan, la compagnie de production a connu ces derniers temps un essor fulgurant. Afin d’étoffer ses effectifs permanents, trois nouveaux cadres ont été recrutés.
+
+François est directeur des opérations, il est en charge de l’administration des ventes (encore embryonnaire) et de l’organisation des événements de promotion.
+
+En tant que directrice de projets, Samantha a la responsabilité de suivre la réalisation des œuvres ; elle veille à ce que l’argent des internautes soit réellement dépensé pour leur production. Son quotidien est donc fait de réservations de studios d’enregistrement et de postproduction, de commandes de galeries digitales et de rendez-vous avec les artistes.
+
+William est le nouveau patron des commerciaux. Il vient du monde de la presse en ligne où il a dirigé des régies publicitaires. Il va maintenant établir des dossiers de partenariat entre internautes et artistes, récupérant pour l’entreprise un pourcentage des fonds collectés et prévoyant des événements de promotion sponsorisés par d’authentiques clients.
+
+a. Analyse de la situation et perspectives
+Les fondateurs, JP et Dan, sont des marketeurs de haut vol, passionnés par leur métier, débordants de nouvelles idées et de projets à enclencher. Mais l’embauche de nouveaux talents a été conduite à marche forcée afin de ne pas perdre prise avec la réalité des affaires. Samantha, François et William ont de grandes qualités professionnelles, cependant leurs méthodes de travail sont très éloignées les unes des autres.
+
+Samantha a travaillé longtemps comme freelance avant de rejoindre l’équipe exécutive. De cette époque, elle a conservé ses tableurs et ses cahiers pour assurer le suivi de ses projets. François est un administrateur né, il a l’habitude de planifier et dérouler ses opérations sans admettre la moindre entorse aux procédures et dispositifs. William est un directeur des ventes expérimenté, flairant les opportunités et assez à l’aise vis-à-vis des procédures trop contraignantes. Avec lui, pas moyen de rater une affaire !
+
+JP et Dan n’organisent pas systématiquement de grandes réunions formelles à horaires fixes, mais ils ont cette fois convié tout le monde autour de la table. Il va falloir s’organiser, et rapidement. Autrement, l’entreprise ratera son passage en mode industriel, sans visibilité sur sa rentabilité et ses perspectives.
+
+Il est décidé de développer un outil de pilotage d’activité maison qui soit utile à l’ensemble du personnel permanent. Jérôme, qui travaillait jusque-là comme webdesigner intérimaire, se voit proposer un poste permanent avec un élargissement de sa mission : il est promu chef de projet de l’application pilotage d’activité ! Les fondateurs annoncent également l’arrivée d’un directeur juridique qui a travaillé dans un grand cabinet d’audit et de conseil. Bien que missionné pour le contentieux et les affaires juridiques de l’entreprise, sa réputation le précède et on sait déjà qu’il a des idées très précises sur la gestion des processus d’entreprises.
+
+b. Résumé des exigences
+JP et Dan souhaitent avoir une vision prospective de leurs affaires, tandis que François a besoin de connaître en temps réel la situation des opérations en cours. Après réflexion, les besoins de Samantha et William sont similaires, toutes les opérations et négociations seront intégrées à cet outil.
+
+Il est convenu qu’une petite entreprise telle que 4U Production s’épargnera la mise en œuvre d’un système ERP (Enterprise Resource Planning, ou progiciel de gestion intégré), réputé complexe à déployer. Les dirigeants, très créatifs, optent plutôt pour la production d’indicateurs numériques et graphiques.
+
+Les indicateurs, actualisés périodiquement, seront affichés sur de grands écrans aux endroits clés des bureaux de l’entreprise, salle de réunion créative, cafétéria, et sur la première page de l’intranet.
+
+c. Dotation et contraintes
+Les dirigeants conçoivent un projet à leur image, entrepreneurial, rapide et qui ne sollicite pas trop la trésorerie. Jérôme dispose de trois mois pour le réaliser, et doit s’organiser à mi-temps, poursuivant ses travaux d’infographie en parallèle. Il aura l’appui du personnel permanent qui a reçu comme consigne de consacrer au moins une journée par semaine aux différents ateliers.
+
+Le développement informatique sera confié à une équipe constituée de freelances déjà en place et habituellement pilotée par Jérôme.
+
+d. Les enjeux du chef de projet
+Chacun tient malgré tout à son indépendance, et la mise en commun des informations de suivi ne rime pas avec une normalisation des processus. C’est un point que devra surveiller Jérôme s’il veut que le projet aboutisse. D’autant que Hubert, le nouveau directeur juridique, semble bien tenté d’apposer sa patte sur le fonctionnement de l’organisation.
+
+Jérôme a d’ailleurs été retenu comme chef de projet car il connaît déjà bien le fonctionnement de l’entreprise et ne cherchera pas à transposer un modèle issu d’une autre expérience professionnelle. Mais il va devoir prendre du recul, s’investir dans de nouveaux domaines, analyser les méthodes de chaque directeur et trouver une cohérence dans le rendu des indicateurs sans pour autant renoncer aux particularités.
+
+Chaque directeur suit son propre rythme, ajoute ses contraintes, dispose déjà de ses indicateurs, et le chef de projet comprend ainsi le sens de sa mission : trouver une organisation qui fédère et rationalise différentes approches ad hoc du pilotage.
+
+C’est donc un projet dans lequel la dimension métier et le relationnel sont au premier plan. Plus coutumier de projets à dominante technologique, Jérôme dispose d’un tremplin pour progresser.
