@@ -517,3 +517,42 @@ Le CDO assure le pilotage de l’ensemble des activités liées à l’utilisati
 C’est aussi le CDO qui veille à la bonne information des membres de l’organisation en matière de protection des données, définissant des programmes de formation et des procédures à appliquer au quotidien.
 
 Le Chief Digital Officer est naturellement devenu un interlocuteur clé dans la conduite de projets informatiques.
+
+## Les bases de l'agilité
+
+Longtemps, le développement de programmes informatiques a été régi par des approches relativement cadrées, pour ne pas dire rigides. Non que ces approches soient mauvaises ou contre-performantes, mais le succès d’un développement selon le processus cascade (ou ses dérivés) dépend d’abord de la stabilité de ses spécifications.
+
+Les temps ont changé, la technologie confère une productivité toujours accrue et l’accélération des mises sur le marché d’innombrables solutions informatiques bouleverse en permanence l’horizon des possibles, les stratégies et les besoins. Ce resserrement du temps est loin de constituer une contrainte, il peut devenir une opportunité pour celui qui ajuste sa démarche à la découverte progressive du besoin, remettant cent fois l’ouvrage sur le métier jusqu’à l’obtention d’un résultat satisfaisant.
+
+![Alt text](image-6.png)
+
+1. La maîtrise du risque
+   Les projets informatiques ont parfois mauvaise réputation : longs, inachevés, peu documentés. Mais on concède aux équipes d’être confrontées à des difficultés assez communes.
+
+Le contexte changeant est fréquemment mis en avant, l’expression de besoins n’est pas stable, ou alors la plateforme technique pas éprouvée. On regrette par ailleurs l’effet tunnel ; tandis qu’une poignée de développeurs s’escrime à produire une version démontrable, le client tenu à l’écart ne se doute pas du drame qui se joue en coulisses. Quand la démonstration survient, l’écart entre le rêve et la réalité se révèle si grand que la stratégie est remise en cause. Il faut repartir de zéro. Les erreurs d’estimation sont aussi souvent citées comme sources d’échec. Mais comment donner un chiffre précis quand on ne dispose pas d’un cahier des charges détaillé ? Laissons les développeurs mener le projet à son terme et on saura dire combien il aura coûté.
+L’absence de prise en compte du risque constitue le point commun à ces assertions. Les équipes ne sont pas en cause, les méthodes classiques ne prévoient pas de s’adapter à un contexte évolutif.
+
+2. Les methodes classiques et leur limites
+
+On conçoit les approches classiques comme des processus de développement de type cascade (waterfall) ou ses dérivés tels que le cycle en V. Encore une fois, ces méthodes ont fait leurs preuves et elles sont à juste titre toujours employées, avec réussite, dans de nombreux projets.
+Le processus classique prévoit un enchaînement linéaire d’activités, du cahier des charges jusqu’à la livraison de la solution informatique qui l’implémente. On comprend alors que la qualité du livrable et la qualité du projet vont de pair, et que celles-ci sont fonction de la précision du cahier des charges. Comme chaque étape n’est exécutée qu’une fois (une seule spécification, une seule phase de codage, un seul cycle de tests...), il est assez aisé d’organiser les activités dans le temps, en les projetant sur un plan de charge qui associe estimation des charges et ressources humaines comme matérielles.
+
+Ces approches donnent un résultat correct dès lors que le besoin est stable et que l’implémentation n’est soumise à aucun aléa informatique. La découverte d’un bug au cours du cycle de tests peut s’avérer catastrophique s’il est avéré que la conception est en cause. Il faut alors remonter le temps et tout reprendre depuis le point de défaillance. Par chance, certains projets ne sont pas exposés à ces aléas ; les exemples d’application de gestion écrite en technologie gros systèmes nous viennent à l’esprit.
+
+![](image-7.png)
+
+Mais la technologie a évolué, les nouveaux langages de développement sont moins formels tandis qu’ils laissent plus de possibilités aux programmeurs, la rapidité de compilation incite davantage à l’essai itératif (code and fix) plutôt qu’à une conception rigoureuse. De plus, les besoins sont moins précis, car leurs auteurs ne veulent pas les graver dans le marbre, se laissant ainsi l’opportunité de voir plus large, de différer un choix qui ne saurait être définitif.
+
+Ces conditions désormais assez répandues perturberont fortement l’exécution d’un projet selon une approche classique, le chef de projet utilisant son énergie à resynchroniser toutes ses ressources, le comité de pilotage constatant l’explosion des charges.
+
+Quand on pense à la notion de risque, c’est souvent pour exprimer la crainte d’une déviation du planning. Dans un premier temps, on redoute les conséquences d’un aléa, la complétude du livrable, la qualité de celui-ci et, bien entendu, la tenue de l’échéance impérative de livraison. L’approche classique se concentre sur le respect holistique des composants QCD (Qualité, Coût, Délai) et n’envisage aucune matrice d’arbitrage. En cas d’écart, le chef de projet détermine le chemin critique et recommande l’ajout de ressources, parfois de paralléliser certaines activités en vue d’obtenir in fine le livrable complet, intègre et à la bonne date.
+
+Cette méthode n’est pas satisfaisante, car elle peut engendrer de nombreux surcoûts pour un résultat discutable. Plus on est près de l’échéance, pire est l’effort requis pour combler le retard. Cet effort devient insoutenable pour le comité de pilotage, et les tentations sont grandes en dernier ressort de procéder à des coupes sombres, non anticipées, non assumées, dans la complétude ou la fiabilité du livrable. Il n’y a pas de matrice d’arbitrage, mais la date est souvent la seule dimension parfaitement comprise et partagée. Il est beaucoup plus aisé d’atténuer la perception d’un périmètre incomplet et de s’appuyer sur une rhétorique selon laquelle les bugs sont indissociables d’une livraison. Pour résumer, l’informatique n’est pas toujours aussi fiable qu’on le souhaiterait.
+
+Dans le cas d’espèce, l’exécution de tels projets s’avère être un gâchis de moyens, les équipes se voient décrédibilisées et se démotivent. Cette issue approximative est-elle inéluctable ?
+
+Les méthodes agiles opèrent en amont de la zone délicate, sous un angle d’attaque imparable : puisque le respect QCD est incertain, autant s’en passer.
+
+Tout est affaire de nuance et de discernement pour rendre ces méthodes efficaces et crédibles, mais admettons que tout soit relatif, ajustable, non indispensable, tant que le client serait satisfait. Pour accepter cette idée peut-être incongrue, comparons les approches classiques avec celles dites agiles :
+
+![Alt text](image-8.png)
