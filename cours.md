@@ -556,3 +556,73 @@ Les méthodes agiles opèrent en amont de la zone délicate, sous un angle d’a
 Tout est affaire de nuance et de discernement pour rendre ces méthodes efficaces et crédibles, mais admettons que tout soit relatif, ajustable, non indispensable, tant que le client serait satisfait. Pour accepter cette idée peut-être incongrue, comparons les approches classiques avec celles dites agiles :
 
 ![Alt text](image-8.png)
+
+### Les preceptes agiles
+
+Passons maintenant au sens littéral du terme. Quelles sont les règles d’or à honorer pour mener un projet de façon agile ?
+
+a. Stratégie des petits pas
+Au début de l’informatique, la gestion de projet suivait surtout la méthode d’analyse. On peut résumer et généraliser (sans doute un peu exagérément) le principe central de ces méthodes : diviser pour régner, simplifier progressivement un problème jusqu’à le décomposer en une suite d’instructions élémentaires faciles à décrire, à planifier, à implémenter et à tester. Cette approche n’est pas remise en cause, elle s’applique encore, même dans le cadre de projets agiles.
+
+Considérons à présent un projet d’une certaine complexité. Son plan peut s’envisager comme la somme de problèmes réductibles à de simples programmes. Mais il peut survenir une autre difficulté pas seulement liée à la complexité intrinsèque d’un des problèmes qui composent le projet, mais due au séquencement des résultats à produire dans un certain ordre qui satisfasse les dépendances entre modules.
+
+Si le projet comporte des risques ou des incertitudes comme la complétude du cahier des charges, l’exécution prédéterminée du plan d’ensemble serait compromise par un problème insurmontable, au coût inacceptable. Ne vaudrait-il pas mieux procéder par étapes et réévaluer périodiquement l’opportunité de poursuivre le projet ?
+
+Les méthodes agiles partagent cette caractéristique de ne pas diviser d’emblée le problème en une suite prédéterminée de sous-problèmes, mais d’organiser le projet selon des phases de durée stable (deux semaines, trois mois...) et de contrôler l’évolution du résultat sous le prisme de la satisfaction client.
+
+b. Fail fast et quick win
+Revenons à la question de la productivité des méthodes classiques. Chaque surcapacité est une perte, et chaque sous-capacité une difficulté vite insurmontable. Or, la fiabilité de l’estimation est souvent variable d’une tâche à l’autre, et même parfois très faible quand le cahier des charges n’a pas été complété à temps.
+
+Être agile, c’est procéder à des essais ; se tromper vite est un moyen de réaliser des économies. Une voie technique à explorer, l’intérêt d’une fonctionnalité à valider, apprenons vite de nos erreurs.
+
+La tentative « de quelque chose » d’incongru, d’osé, est récompensée par l’atteinte rapide d’un résultat démontrable.
+
+Fail fast, quick win, l’échec est permis, le pari est encouragé.
+
+c. Implication du client
+De nos jours, évidente, la présence du client au cœur du développement n’est pas toujours allée de soi.
+
+On peut partager les réticences de tout un chacun à s’embarrasser d’un encombrant représentant du métier, qui est en position de critiquer un résultat encore en phase d’élaboration, sans être un spécialiste de l’informatique. Le contrat est pourtant clair et le plan projet net comme le fil du rasoir. Inutile dès lors de redouter l’effet tunnel, le client tient la place qui lui est dévolue par la méthode cascade ou par le cycle en V.
+Oui, mais un projet se déroule rarement sans aléas. Opposons maintenant deux stratégies : élaborer une explication convaincante, gérer l’écart, assumer le choix d’une voie médiane, ou bien profiter de l’avis éclairé du client qui n’analyse pas l’anomalie sous un angle informatique, précisément parce qu’il n’est pas développeur. Le client suit l’adéquation du résultat à ses critères économiques (pour ne pas dire business).
+
+Le client est sans doute le mieux placé pour apprécier l’évolution du produit. L’intégrer dans l’équipe projet, c’est le responsabiliser vis-à-vis de ses choix, et diminuer par là même la pression liée à la gestion des écarts.
+
+3. Les nouveaux rôles
+   Par opposition aux méthodes classiques, les méthodes agiles partagent une autre définition de l’organisation. La séquence d’activité suivant une logique prédéterminée est remplacée par l’évaluation périodique de l’amélioration de la satisfaction client.
+
+Certes, ces nouvelles modalités remettent en cause la prédominance de certains rôles dans la conduite réussie d’un projet, mais elles n’amoindrissent aucunement le caractère structuré et logique des projets agiles. Voyons comment se répartissent les responsabilités.
+
+a. Product manager et product owner
+Le product manager ou PM est une appellation anglaise désormais standard. Il a pour principale mission d’orienter l’évolution du produit de façon à maximiser sa valeur business aux yeux du client. Plus haute est cette valeur, meilleure est la satisfaction. Le terme product owner ou PO désigne la même mission dans le cas de la méthode Scrum (voir section La méthodologie Scrum).
+
+Le PM est le premier créatif de l’équipe agile, il insuffle au projet son inspiration, à la recherche d’opportunités qu’il doit évaluer, en déterminant ce qui est à réaliser par l’équipe de développement.
+
+La connaissance du client et de son domaine métier est la première compétence du PM. Comme l’agilité est l’art de combiner les expertises et de surfer en dehors de son domaine de prédilection, le product manager contribue aussi aux discussions technico-fonctionnelles qui pourraient impacter la satisfaction client, concerner de nouvelles opportunités telles que les données associées au produit ou son contexte économique, son industrie... La qualité du travail du PM dépend aussi d’une revue par des clients référents.
+
+Le projet performant est celui d’un PM qui ne cherche pas à livrer des fonctionnalités, mais dans lequel il suscite la collaboration interfonctionnelle, pour fournir de la valeur métier.
+
+Le product manager est l’interlocuteur privilégié du client, dont il comprend les enjeux métier, avec lequel il travaille de façon régulière ; c’est son partenaire pour dépasser et résoudre des problématiques business.
+
+b. De chef de projet à Scrum master
+Nous n’avons pas encore traité la question de la dissolubilité des méthodes agiles dans des formats plus classiques. À l’échelle de l’entreprise, le chef de projet a deux casquettes. D’une part, il a la charge de l’exécution d’un plan projet, mettant en œuvre des ressources humaines et informatiques pour accomplir sa réalisation. D’autre part, il rend compte de l’avancement de son projet au comité de pilotage, au sein duquel il participe à des décisions d’arbitrage.
+
+Étant donné que le planning d’ensemble n’est pas un préalable à la méthode agile, la première de ces missions pourrait être remise en question. C’est le pas qu’a franchi la méthode Scrum en abolissant le terme chef de projet.
+
+Le Scrum master n’est d’ailleurs pas une affectation nécessairement fixe au cours du projet, elle peut tourner et se voir confiée à n’importe quel membre de l’équipe. Nous détaillerons un peu plus tard les missions du Scrum master, bien entendu dans le cadre de la méthode Scrum.
+
+c. D’architecte à product designer
+À la recherche d’un résultat démontrable rapidement, la conception (ou design en anglais) d’un produit emprunte des circuits courts et spécialisés. L’expertise technique est apportée là où l’incertitude constitue un risque d’impact sur la satisfaction.
+
+Auparavant, on travaillait à l’élaboration d’interfaces graphiques selon des standards de l’industrie (des normes), des règles issues du client et des capacités de la technologie maîtrisée par les développeurs. Désormais, on s’attache à fournir une expérience utilisateur (UX pour User Experience) d’un niveau susceptible de satisfaire le client et son marché. En appliquant ce même principe en backoffice, il est particulièrement coûteux de mettre en œuvre intégralement un système qui sera écarté du projet après quelques tests.
+Dans un projet agile qui fonctionne bien, le product designer intervient en permanence. Il n’y a pas de phase de design initial puis d’implémentation, mais une suite de prototypes évalués à l’aune de la satisfaction, améliorés et épurés. Les product designers appliquent d’ailleurs le principe KISS (Keep It Simple, Stupid et toutes ses variantes), en maintenant en parallèle l’efficacité du résultat et la simplicité du design.
+
+d. Delivery manager ou program manager
+Dans un projet au format classique, l’effort nécessaire à la fabrication des releases de production représente 30 à 40 % du budget. Rapportée sur une échelle de temps, l’industrialisation des développements constitue une phase longue et souvent irréductible au cours de laquelle les non-experts assistent incrédules aux difficultés de stabiliser une solution qui n’a pas encore été confrontée à ses conditions réelles d’exploitation.
+
+Cette approche ne rentre pas dans des cycles logiciels courts. La démontrabilité d’une solution en gestation est le point clé, et le dialogue avec le client déterminant.
+
+Comme conséquence, toutes les tâches de fabrication sont automatisées et il n’existe qu’un seul circuit pour exploiter le produit, qu’on soit développeur, testeur, product manager ou client.
+
+Le delivery manager supprime les empêchements techniques et organisationnels, supervise l’exécution du processus, et coordonne les équipes. Cette mission est possiblement assurée par le Scrum master ou par une personne en charge des opérations de déploiement continu des développements (DevOps).
+
+Le succès d’un projet agile repose sur les actions déterminantes de son delivery manager, qui résout les problèmes techniques ou organisationnels, élimine les difficultés, agit comme un coach du processus et non comme un exécutant, et qui vit pour livrer !
