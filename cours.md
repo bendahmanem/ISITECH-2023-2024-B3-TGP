@@ -631,10 +631,10 @@ Le succès d’un projet agile repose sur les actions déterminantes de son deli
 
 ### **Scrum**
 
-La méthode Scrum, élaborée à partir de 1986, s’est répandue et imposée depuis quelques années comme étant la référence dans la mise en œuvre de projets agiles. Il s’agit d’une approche holistique qui procède par cycles courts (des sprints ou itérations) pour organiser le développement logiciel de façon incrémentale et itérative. Les fonctionnalités sont réalisées progressivement et livrées au fur et à mesure.
+La méthode Scrum, élaborée à partir de 1986, s’est répandue et imposée depuis quelques années comme étant la référence dans la mise en œuvre de projets agiles. Il s’agit d’une approche holistique qui procède par cycles courts (des sprints ou itérations) pour organiser le développement logiciel de façon incrémentale et itérative. Les fonctionnalités sont réalisées progressivement et **livrées au fur et à mesure**.
 La terminologie Scrum est quasiment passée dans le langage courant, elle est appliquée par extension à d’autres méthodes agiles.
 
-a. La définition du backlog
+**a. La définition du backlog**
 Le backlog représente l’ensemble des entrants fonctionnels comme techniques à réaliser. Il s’agit d’un stock continuellement mis à jour, chaque sprint étant l’occasion de puiser des éléments à implémenter ou d’en ajouter d’autres.
 
 L’élément de travail de base est l’histoire utilisateur et son pendant l’histoire technique, respectivement désignées user story (US) et technical story (TS). Une US décrit la fonctionnalité telle qu’appréhendée par l’utilisateur. Il n’est pas nécessaire de faire figurer dans l’US des instructions techniques relatives à l’implémentation, bien que cela soit une possibilité. L’élément de travail comporte un titre, une référence unique déterminée par le système de gestion (Jira, VSTS...), une description fonctionnelle, mais aussi des critères d’achèvement ou definition of done.
@@ -644,7 +644,9 @@ Le backlog comprend aussi des bugs remontés lors des cycles de tests ou par les
 Le travail de rédaction des US emprunte lui-même un processus itératif et incrémental. Il est habituel de lister les US dans le backlog, puis de les compléter au fil des sprints.
 
 Bien que, par essence, Scrum ne fixe aucune règle quant à la structuration des sprints (autrement dit, l’ordre et la quantité d’US à traiter ne sont pas déterminés par la méthode), de nouvelles approches visent à organiser le découpage du projet pour atteindre plus rapidement et plus facilement la satisfaction client. La cartographie des histoires utilisateurs (ou story mapping) représente en deux dimensions les US, par séquence de fonctionnalités utilisateurs et par ordre d’importance métier. Cette approche aide l’équipe projet à se préoccuper en priorité de ce qui est important et impactant pour la satisfaction du client.
-b. Les sprints ou itérations
+
+**b. Les sprints ou itérations**
+
 Les sprints structurent les projets Scrum. Ce sont des cycles d’activités généralement assez courts - deux semaines - où se succèdent des réunions appelées cérémonies et des phases de production logicielle.
 
 Il existe sans doute autant de façons d’appliquer Scrum que d’équipes et de projets, et autant de possibilités de personnaliser les cérémonies, d’en introduire de nouvelles ou d’en écarter certaines. Cela dit, quatre d’entre elles restent des incontournables de la méthode Scrum.
@@ -657,7 +659,8 @@ La revue d’itération (sprint review) est une démonstration par l’équipe e
 
 La rétrospective (sprint retro), qui peut avoir lieu en même temps que la revue, met l’accent sur ce qui a fonctionné et sur ce qui pourrait être amélioré, dans un registre technique, organisationnel, communication... La rétrospective est une caractéristique qui illustre la philosophie holistique du Scrum standard, en cherchant l’amélioration continue dans le cadre du projet lui-même.
 
-c. L’avancement dans Scrum
+**c. L’avancement dans Scrum**
+
 Revenons un instant sur l’organisation des flux de travail dans un projet agile ; le planning de type Gantt ne s’emploie pas, car les tâches ne sont pas estimées en j.h, mais en points de complexité.
 
 L’équipe a déterminé en début de sprint combien de points de complexité pouvaient être engagés conformément à sa vélocité. Le suivi des tâches s’effectue à l’aide d’un tableau divisé en colonnes (À faire, En cours, À valider, Terminé...). Des étiquettes représentant les tâches (des US ou des bugs) sont déplacées d’une colonne à l’autre au fur et à mesure des traitements.
@@ -665,7 +668,8 @@ L’équipe a déterminé en début de sprint combien de points de complexité p
 Bien que les systèmes de gestion tels que Jira ou VSTS proposent des tableaux de bord assez efficaces, il n’est pas rare que l’équipe installe aussi un véritable tableau sur lequel sont apposées des étiquettes collantes.
 Afin de quantifier l’effort restant pour compléter les US du sprint, on utilise un burndown chart. Ce graphique représente en abscisse le temps (en jours, en semaines...) et en ordonnée l’effort restant. La courbe est souvent comparée à une droite qui part du point (0, Total engagé) et qui descend jusqu’au point (Fin de sprint, 0).
 
-d. Le rôle du Scrum master
+**d. Le rôle du Scrum master**
+
 La méthode Scrum ne prévoit pas de hiérarchie entre les rôles. Elle constitue un tout et son application rigoureuse est la condition sine qua non de réussite du projet.
 
 Le Scrum master a la charge de l’application à bon escient de la méthode. Il a pour mission d’aider l’équipe à dérouler le projet, à s’entraider, à s’améliorer et à dépasser les difficultés d’organisation. Le Scrum master n’est donc pas un chef de projet ni un leader dirigiste, mais un facilitateur qui guide et coache son équipe. Cette définition du rôle du Scrum master, déterminé par la méthode elle-même, est une nouvelle illustration de son concept tout-en-un, et d’un accent davantage mis sur la performance de l’équipe que sur la prédictibilité du projet.
