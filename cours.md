@@ -852,3 +852,56 @@ Le chef de projet a la charge de l’approvisionnement en moyens matériels, log
 Les livraisons sont aussi sous la responsabilité du chef de projet qui contrôle les entrées (apport des fournisseurs) et les sorties (remises au client). Nous découvrirons à la section Le suivi et le pilotage comment sont organisées ces livraisons.
 
 Compte tenu de toutes ces activités, il n’est pas surprenant que les tâches d’organisation puissent représenter jusqu’à 15 à 20 % de la charge totale du projet.
+
+### La gestion des ressources
+
+1. Le plan de charge
+   Le plan de charge représente le rapport entre le nombre de jours d’engagement et le nombre de jours potentiels de réalisation d’une ressource.
+
+Une ressource chargée à 50 % est donc disponible la moitié du temps. Toutefois, cette valeur traduit mal la disponibilité réelle des personnes. Il s’agit plutôt de valeurs cibles qui expriment leur engagement maximal, compte tenu d’activités annexes ou de responsabilités particulières.
+
+Ainsi, les chefs de projet sont rarement chargés au-delà de 60 %, les 40 % restant étant partagés entre l’encadrement et l’organisation. Les délégués du personnel, les managers, les membres de groupes d’experts ont aussi des activités en dehors des projets qui vont peser sur leur plan de charge.
+
+![Alt text](image-15.png)
+
+Communément, le plan de charge est défini sur un horizon temporel donné (par exemple un mois, un trimestre) et il est réactualisé au cours de l’année. On peut le représenter sous la forme d’un diagramme de Gantt, de tableaux ou d’histogrammes qui indiquent au chef de projet le potentiel de réalisation de son équipe.
+
+![Alt text](image-16.png)
+
+Les congés, formations et autres indisponibilités sont alors introduits dans le calcul. Ainsi, le chef de projet a une vision précise de son plan de charge potentiel.
+
+La charge est ensuite fractionnée et partagée entre les différents projets ; c’est l’engagement des ressources.
+
+2. La montée en charge et la disponibilité
+   Les ressources engagées sur un projet ne sont pas immédiatement opérationnelles à 100 %. Il leur faut du temps pour prendre connaissance du contexte et définir leur propre organisation afin de mener à bien les tâches qui leur sont affectées.
+
+Au sein d’un projet, passer continuellement d’une tâche à l’autre n’est pas une chose aisée, et le chef de projet doit veiller à préserver les ressources les moins expérimentées qui pourraient vite se perdre dans de tels agencements.
+
+Passer d’un projet à l’autre est encore plus difficile. Seuls les experts ayant l’habitude de distribuer leur temps entre plusieurs thèmes réussissent à s’accommoder de cette situation.
+
+Inversement, certaines personnes ont besoin de varier les exercices. Les affecter durablement sur des tâches répétitives entame leur motivation et leur efficacité. Pour limiter ce phénomène, le chef de projet peut intercaler des séances courtes (deux heures en fin de journée) de formation ou de veille technologique. Il peut aussi confier temporairement des responsabilités supplémentaires aux membres de l’équipe qui trouvent la phase de projet un peu monotone.
+
+3. La surcharge
+   La surcharge intervient lorsqu’une ressource au moins doit accomplir plus de travail qu’une journée ne peut en représenter. Les diagrammes de Gantt peuvent aider le chef de projet à détecter ces périodes, à moins qu’il ne dispose d’un outil d’analyse automatique.
+
+Sur de très courtes périodes, et avec un personnel expérimenté, la surcharge peut être un moyen de se sortir de coups durs. Mais elle va rapidement conduire à une baisse de qualité, à une démotivation des ressources, et finalement à une déstructuration de l’équipe tout entière.
+
+Il vaut mieux dans la majorité des cas retravailler le planning pour éviter les mises en parallèle inopportunes, par exemple en faisant appel à de la main-d’œuvre supplémentaire.
+
+4. Gestion des ressources Cloud
+   L’essor du Cloud a imposé un nouveau modèle économique : la facturation est fonction de la consommation. Cette modalité s’applique en particulier aux environnements d’exécutions (Platform as a Service), aux infrastructures à la demande (Infrastructure as a Service) et bien sûr aux services logiciels (Software as a Service).
+   Par conséquent, le chef de projet doit veiller à ajuster le dimensionnement de ses ressources Cloud en fonction de la phase du projet et du nombre d’utilisateurs.
+
+Les principes d’allocation sont les suivants :
+
+Demander un environnement de développement suffisant pour construire la solution mais sans atteindre le niveau de performance correspondant à une pleine charge de données et d’utilisateurs.
+
+Optimiser les environnements de test pour permettre le déploiement d’une release sur l’environnement A pendant qu’une autre version est testée sur B. Si le cadencement des tests le permet, limiter à un seul environnement de test.
+
+L’environnement de test de charge est mis en sommeil entre deux tirs. L’équipe doit vérifier auprès du fournisseur d’infrastructure que les performances délivrées par la plateforme restent constantes après chaque tir. Il arrive fréquemment que les performances fournies soient lissées sur une période d’un mois.
+
+Le dimensionnement de l’environnement de production est ajusté à la hausse ou à la baisse en fonction de la charge des utilisateurs et du volume de données à traiter.
+
+Le coût de stockage est généralement très bon marché pour inciter à l’ancrage d’une solution sur une plateforme donnée. Si l’upload (copie des données vers le Cloud) est financièrement attractif, le coût du download peut être prohibitif pour dissuader toute velléité de changement de fournisseur Cloud. Le choix initial et les préétudes d’architectures s’avèrent donc déterminants quant à la dernière ligne du budget d’hébergement.
+
+Comprendre une grille tarifaire Cloud n’est pas chose aisée. Tout a l’air bon marché, et l’estimation des volumes, flux, bandes passantes… peut virer au cauchemar. D’un autre côté, le surdimensionnement de l’infrastructure peut s’avérer ruineux. Si une équipe d’architecture est confrontée à des problèmes de performances, elle peut recourir à une solution d’analyse de la performance applicative (APM - Application Performance Monitoring) comme Dynatrace ou New Relic pour l’aider à diagnostiquer les composants en cause, et proposer ainsi un plan d’optimisation de la performance à un coût maîtrisé.
