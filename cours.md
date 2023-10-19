@@ -794,3 +794,61 @@ L’estimation par tableau est largement plébiscitée par les ESN qui la décli
 - Contraintes d’organisation (taille de l’équipe, jalons, planning, niveau de parallélisme entre les tâches, risques...).
 
 L’ensemble de ces paramètres est introduit dans des logiciels chargés de produire la ou les estimations. Avec l’expérience, le chef de projet peut se créer des feuilles de calcul lui permettant de chiffrer rapidement ses projets, au moins pour une première approche.
+
+### L'organisation du planning du chef de projet
+
+Le chef de projet a comme responsabilité le suivi des opérations. En dehors de toute problématique liée à la tenue du planning, le suivi concerne d’abord l’aboutissement des tâches dans les conditions fixées par le cahier des charges.
+
+Pour arriver à ce résultat, le chef de projet ne peut se contenter de créer des conditions favorables. Il doit expliquer ce qu’il attend des membres de son équipe, fixer des objectifs de réalisation et contrôler le résultat.
+
+Ce processus appelé encadrement est détaillé ci-dessous :
+
+![Alt text](image-12.png)
+
+Les objectifs sont assignés de façon périodique ou permanente ; s’il s’agit de tâches liées à l’exécution d’un planning, le chef de projet indique au fur et à mesure le moment où il convient de les démarrer. La description des tâches (travail à effectuer, critères d’achèvement, livrables) est par ailleurs définie dans le document de spécifications détaillées du projet. S’il s’agit de tâches exceptionnelles (les imprévus), le chef de projet doit prendre soin de les présenter et de veiller à la capacité d’exécution dans les délais impartis.
+
+L’audit consiste à récupérer des informations auprès des membres du projet. Il peut s’agir d’extraits de code, de fichiers binaires, de documentations, de notes de conception, de tableaux de suivi, de résultats de tests... Le recueil a lieu de façon périodique ou inopinée.
+
+Ces informations sont ensuite analysées, mesurées (donc confrontées à des grandeurs de référence) et quantifiées ; la quantification indique si l’information donne lieu à une alerte ou non, par exemple lorsque la valeur mesurée dépasse un certain seuil.
+
+Les alertes sont alors prises en compte par le chef de projet qui peut demander aux membres de l’équipe des précisions. Une décision s’impose pour faire revenir la situation à la normale.
+
+Cette décision doit être portée à la connaissance de l’équipe sous la forme de consignes : correction, attention, suivi, engagement de ressources supplémentaires...
+
+Le chef de projet a la responsabilité de contrôler l’application de la consigne et éventuellement de constater la disparition de l’alerte.
+
+Donnons maintenant un exemple de réalisation de ce processus. L’objectif est confié à un collaborateur à qui l’on demande d’étudier la faisabilité d’opérations de développement logiciel. Les demandes doivent impérativement être fournies sous deux jours pour ne pas perturber le processus d’ensemble.
+
+![Alt text](image-13.png)
+
+Le collaborateur prépare chaque semaine un tableau de suivi dans lequel il consigne l’ensemble des demandes traitées ou encore en attente. Chaque ligne du tableau explicite des conditions particulières et qui sont indispensables à l’évaluation de la faisabilité. Par ailleurs, le workflow de traitement repose sur un outil informatique capable de produire des statistiques d’usage. Le chef de projet peut ainsi confronter les deux informations, l’une très détaillée (mais peut-être pas à jour quantitativement) et l’autre plutôt générale.
+
+Lorsque certaines demandes ne sont pas traitées dans les trois jours, elles passent en alerte. Ces alertes requièrent une décision de la part du chef de projet, lequel énonce l’instauration d’une nouvelle règle de fonctionnement. Lorsque le nombre est inférieur à cinq, il demande des éclaircissements sur les circonstances des demandes bloquées. Dans le cas contraire, il faut se rendre à l’évidence, les moyens manquent.
+
+La règle instaurée est publiée pour que l’ensemble des personnes impliquées dans le processus de validation soit mis au courant. Après coup, le chef de projet doit contrôler régulièrement l’évolution des statistiques et les tableaux de suivi pour s’assurer que le nombre de demandes insatisfaites baisse.
+
+### L'organisation du chef de projet
+
+Le chef de projet assure quantité de tâches liées à l’organisation :
+
+![Alt text](image-14.png)
+
+La préparation du plan de charge est une étape importante qui repose sur l’estimation du travail restant et sur les ressources affectées au projet. Cette estimation évolue au cours du temps, d’abord parce que de nouvelles tâches sont constamment ajoutées (les imprévus), mais aussi car il est presque impossible de chiffrer avec une grande exactitude un projet dont la charge dépasse quelques centaines de jours.
+Le plan de charge est ensuite confronté au plan de développement qui indique les grandes étapes de la réalisation d’un projet, ou (ce qui revient un peu au même) les interactions entre les projets. Bien entendu, l’un influence l’autre et le chef de projet peut être amené à modifier son plan de charge pour tenir compte de contraintes fortes, ou au contraire à agencer son plan de développement pour optimiser l’affectation de ses ressources.
+
+Au quotidien, le chef de projet gère le planning de ses équipiers ; nous verrons un peu plus loin comment le planning est d’abord assemblé puis maintenu au jour le jour. Cette activité représente un travail conséquent et des outils adaptés s’avèrent vite indispensables pour en venir à bout.
+
+Le recueil et le traitement des comptes rendus d’activité entrent dans la catégorie des tâches de suivi de projet ; les plannings sont bien entendu affectés par ces pointages qui annoncent la clôture de certaines tâches et le démarrage d’autres.
+Le pilotage est une activité où le chef de projet prend du recul et contrôle, en comité, l’exécution de son projet dans le respect des règles de fonctionnement de l’entreprise. Le comité de pilotage intervient pour faire évoluer le processus de réalisation de manière à le rendre plus rationnel ou plus dynamique.
+
+Nous avons découvert que l’encadrement des équipes reposait sur une méthodologie précise qui entre dans la catégorie des tâches liées à l’organisation du projet : lorsque l’application de cette méthode ne permet pas de réaliser sans heurt les tâches, le chef de projet procède à des changements dans l’affectation des ressources. Il peut ainsi renforcer certaines équipes, responsabiliser ou remotiver des personnes, décharger, écarter ou en faire former d’autres.
+
+Conduire un projet exige aussi de prendre la parole et d’assurer des opérations de communication (promotion, avancement, arbitrages...). Élément central et fédérateur, le chef de projet est naturellement impliqué dans ces opérations. Toutefois, il peut bénéficier de l’appui de services dédiés.
+
+Les réunions sont planifiées, organisées et conduites par le chef de projet. Leur organisation suppose l’établissement d’un ordre du jour, d’un horaire, et sans doute la réservation d’une salle appropriée, équipée des moyens nécessaires à la tenue des réunions, ordinateurs, réseaux, vidéoprojecteurs...
+
+Le chef de projet a la charge de l’approvisionnement en moyens matériels, logiciels et logistiques pour conduire ses opérations dans de bonnes conditions. Cet approvisionnement réclame parfois du temps pour négocier des prestations, des prix, des délais, des demandes d’achat... Cette activité n’est certainement pas à sous-estimer car elle peut s’avérer rapidement envahissante, voire embarrassante.
+
+Les livraisons sont aussi sous la responsabilité du chef de projet qui contrôle les entrées (apport des fournisseurs) et les sorties (remises au client). Nous découvrirons à la section Le suivi et le pilotage comment sont organisées ces livraisons.
+
+Compte tenu de toutes ces activités, il n’est pas surprenant que les tâches d’organisation puissent représenter jusqu’à 15 à 20 % de la charge totale du projet.
