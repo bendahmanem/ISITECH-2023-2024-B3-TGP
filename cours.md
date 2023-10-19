@@ -139,7 +139,7 @@ Quand la convention de gouvernance est passée, elle s’applique aussitôt ; le
 
 CRM: Customer Relationship Management
 
-1. Contexte
+#### 1. Contexte
 
 La Société de **Conseil Plus** compte deux-cents personnes sur deux sites implantés dans de grandes villes, capitales économiques de leurs régions respectives. Les associés exercent une activité exécutive et en même temps opérationnelle. La société dispense des conseils aux professionnels, aussi les associés disposent d’une relative autonomie dans le développement de leurs affaires. La présidence tournante au sein du comité de direction vient de changer, et celle-ci, sur la recommandation de la direction administrative et financière, a fait le choix stratégique d’attaquer un nouveau marché du conseil.
 
@@ -754,3 +754,43 @@ Il n’y a pas que les tests qui soient automatisés. Les projets agiles mettent
 Les architectures Java sont souvent desservies par Jenkins, orchestrateur capable de déclencher des builds Ant ou Maven (technologies de production de version logicielle), de déployer, de lancer des tests unitaires et de contrôler le flux d’exécution en fonction des codes de retour de chaque étape. D’autres plateformes font également leur apparition, les écosystèmes se faisant toujours plus complets selon la logique de la tache d’huile qui recouvre tout l’espace disponible.
 
 Microsoft intègre aussi une version répartie de MS-Build capable de compiler en local ou en ligne, et même de déployer sur Azure.
+
+## Planification Chiffrage et Estimation des projets agiles au quotidien
+
+### L'estimation des charges
+
+L’estimation des charges est souvent source de malentendu ; celui à qui on demande d’évaluer la quantité de temps à passer sur une tâche ne saisit pas toujours comment se rendre compte de cette durée sans au préalable l’effectuer ! Avec l’expérience, les réponses viennent plus facilement pour l’évaluation des nouvelles fonctionnalités. On assiste alors à d’autres blocages sur l’évaluation des bugs, lesquels ne sont pas encore identifiés !
+
+Le chef de projet doit donc en premier lieu convaincre son équipe de la nécessité de formuler un avis, lequel ne sera pas définitif. Les chiffres seront réévalués tout au long du projet, c’est une activité intrinsèque à la conduite de projet.
+
+Projet :
+Un projet est un engagement de moyens pour atteindre un objectif. Un objectif non chiffré ne fait donc pas partie du projet. Toutes les tâches non évaluées ne peuvent donc pas être traitées, y compris les bugs.
+
+#### **1. Les charges et les délais**
+La première chose à établir clairement est la différence entre charge (effort en anglais) et délai (lead time ou elapse). Une charge, exprimée en jour par homme (j.h ou man.day en anglais), représente la quantité de travail fournie par une personne pour réaliser une tâche.
+
+Le délai, c’est le nombre de jours maximum qui peut s’écouler entre le début de la réalisation d’une tâche et sa fin, en comptant sur la possibilité d’y engager plusieurs ressources (ou en tenant compte de contraintes d’exécutions qui pourraient au contraire rallonger cette durée).
+
+Ainsi, une tâche de dix j.h peut demander un délai de dix jours si une seule personne y travaille, cinq jours si elle peut être divisée en deux sous-tâches exécutées en parallèle, et ainsi de suite. Parfois des contraintes d’organisation s’intercalent au milieu de la réalisation d’une tâche et augmentent de ce fait le délai. Nous reviendrons un peu plus tard sur les notions de reste à faire, de consommé et d’avancement. Pour le moment, nous nous concentrons sur l’estimation.
+
+![Alt text](image-11.png)
+
+Le modèle de développement choisi influence nettement la liste des unités d’œuvre qui figurent dans l’organigramme, de même le nombre d’itérations pour les méthodes agiles.
+
+L’estimation par tableau est largement plébiscitée par les ESN qui la déclinent en introduisant de nombreux facteurs :
+
+- Architectures techniques standards.
+
+- Services standards.
+
+- Nombre d’éléments remarquables (nombre d’entités SQL, nombre d’écrans).
+
+- Niveau de réutilisation d’une solution existante.
+
+- Options fonctionnelles.
+
+- Options techniques.
+
+- Contraintes d’organisation (taille de l’équipe, jalons, planning, niveau de parallélisme entre les tâches, risques...).
+
+L’ensemble de ces paramètres est introduit dans des logiciels chargés de produire la ou les estimations. Avec l’expérience, le chef de projet peut se créer des feuilles de calcul lui permettant de chiffrer rapidement ses projets, au moins pour une première approche.
