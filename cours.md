@@ -894,14 +894,144 @@ Il vaut mieux dans la majorité des cas retravailler le planning pour éviter le
 
 Les principes d’allocation sont les suivants :
 
-Demander un environnement de développement suffisant pour construire la solution mais sans atteindre le niveau de performance correspondant à une pleine charge de données et d’utilisateurs.
+- Demander un environnement de développement suffisant pour construire la solution mais sans atteindre le niveau de performance correspondant à une pleine charge de données et d’utilisateurs.
 
-Optimiser les environnements de test pour permettre le déploiement d’une release sur l’environnement A pendant qu’une autre version est testée sur B. Si le cadencement des tests le permet, limiter à un seul environnement de test.
+- Optimiser les environnements de test pour permettre le déploiement d’une release sur l’environnement A pendant qu’une autre version est testée sur B. Si le cadencement des tests le permet, limiter à un seul environnement de test.
 
-L’environnement de test de charge est mis en sommeil entre deux tirs. L’équipe doit vérifier auprès du fournisseur d’infrastructure que les performances délivrées par la plateforme restent constantes après chaque tir. Il arrive fréquemment que les performances fournies soient lissées sur une période d’un mois.
+- L’environnement de test de charge est mis en sommeil entre deux tirs. L’équipe doit vérifier auprès du fournisseur d’infrastructure que les performances délivrées par la plateforme restent constantes après chaque tir. Il arrive fréquemment que les performances fournies soient lissées sur une période d’un mois.
 
-Le dimensionnement de l’environnement de production est ajusté à la hausse ou à la baisse en fonction de la charge des utilisateurs et du volume de données à traiter.
+- Le dimensionnement de l’environnement de production est ajusté à la hausse ou à la baisse en fonction de la charge des utilisateurs et du volume de données à traiter.
 
-Le coût de stockage est généralement très bon marché pour inciter à l’ancrage d’une solution sur une plateforme donnée. Si l’upload (copie des données vers le Cloud) est financièrement attractif, le coût du download peut être prohibitif pour dissuader toute velléité de changement de fournisseur Cloud. Le choix initial et les préétudes d’architectures s’avèrent donc déterminants quant à la dernière ligne du budget d’hébergement.
+- Le coût de stockage est généralement très bon marché pour inciter à l’ancrage d’une solution sur une plateforme donnée. Si l’upload (copie des données vers le Cloud) est financièrement attractif, le coût du download peut être prohibitif pour dissuader toute velléité de changement de fournisseur Cloud. Le choix initial et les préétudes d’architectures s’avèrent donc déterminants quant à la dernière ligne du budget d’hébergement.
 
 Comprendre une grille tarifaire Cloud n’est pas chose aisée. Tout a l’air bon marché, et l’estimation des volumes, flux, bandes passantes… peut virer au cauchemar. D’un autre côté, le surdimensionnement de l’infrastructure peut s’avérer ruineux. Si une équipe d’architecture est confrontée à des problèmes de performances, elle peut recourir à une solution d’analyse de la performance applicative (APM - Application Performance Monitoring) comme Dynatrace ou New Relic pour l’aider à diagnostiquer les composants en cause, et proposer ainsi un plan d’optimisation de la performance à un coût maîtrisé.
+
+### La planification du projet de pilotage d’activité
+
+Sachant le planning serré, le chef du projet de pilotage d’activité compare plusieurs estimations pour limiter le risque d’un sous-dimensionnement. En partant de l’hypothèse la plus vraisemblable, il transforme alors son macroplanning en un Gantt qui lui donne plus de possibilités d’analyse ; en effet, Jérôme souhaite anticiper les périodes critiques pendant lesquelles les tâches doivent s’enchaîner sans décalage.
+
+#### 1. Différentes estimations
+**a. Estimation selon la méthode des points fonctionnels**
+Jérôme a utilisé cette méthode pendant le cadrage du projet, car elle fournit une estimation assez rapidement. En comptant le nombre de points fonctionnels et leur difficulté sur une échelle à trois graduations, un chiffrage global de 362 j.h a pu être établi.
+
+![Alt text](image-17.png)
+
+b. Estimation par abaque
+L’estimation par abaque apporte un peu plus de précision puisque des coefficients s’appliquent selon la nature du « point fonctionnel » - écran, liste, module - et sa difficulté. Pour évaluer ce dernier critère, les abaques fixent des règles :
+
+Simple
+
+La donnée n’est affichée qu’en lecture seule.
+
+Le nombre de formulaires/onglets dans l’écran est inférieur ou égal à deux.
+
+Le nombre de contrôles dans la page est inférieur ou égal à cinq.
+
+Le nombre de validations est inférieur ou égal à trois (validations automatiques ou personnalisées).
+
+Pas de contrôle personnalisé.
+
+Pas de fenêtre pop-up.
+
+Moins de trois tables SQL.
+
+Moins de trois opérations métier.
+
+Moins de trois requêtes SQL.
+
+Moyen
+
+Le traitement implique des validations et des règles de gestion métier.
+
+Mises à jour simples sur une seule table.
+
+Pour les listes, la pagination et le tri sont disponibles.
+
+Jusqu’à quatre formulaires/onglets dans la page.
+
+Jusqu’à dix contrôles dans la page.
+
+Jusqu’à cinq validations dans la page (automatiques ou personnalisées).
+
+Un seul contrôle personnalisé.
+
+Une seule fenêtre pop-up.
+
+Jusqu’à cinq tables SQL et sept requêtes.
+
+Jusqu’à cinq traitements métier.
+
+Complexe ou très complexe
+
+Clauses where complexes avec des sous-requêtes et/ou des jointures externes.
+
+Les traitements impliquent des règles de gestion métier complexes.
+
+Jusqu’à cinq tables mises à jour.
+
+Interface utilisateur riche et personnalisable.
+
+Demande de mesure de performances.
+
+Traitements par lot ou traitement en arrière-plan.
+
+Plus de cinq formulaires ou onglets.
+
+Plus de dix contrôles par page.
+
+Plus de cinq validations.
+
+Plus de deux contrôles personnalisés.
+
+Plus de deux fenêtres pop-ups.
+
+Jusqu’à dix tables SQL.
+
+Plus de cinq traitements métier.
+
+Jusqu’à douze requêtes SQL.
+
+Jérôme possède plusieurs abaques selon les sociétés de services avec lesquelles il contracte habituellement. Il choisit celle qui correspond le plus au projet de pilotage :
+
+![Alt text](image-18.png)
+
+L’abaque est ensuite appliqué au projet :
+
+![Alt text](image-19.png)
+![Alt text](image-20.png)
+
+Cette estimation demande plus de temps car chaque écran ou fonctionnalité doit être calibré selon les critères de l’abaque, et elle donne ici une charge de projet inférieure à la méthode des points fonctionnels :
+
+![Alt text](image-21.png)
+
+La différence est de 50 jours sur le développement et finalement de 100 jours en incluant les tests et les activités de gestion de projet.
+
+### Le planning de projet
+
+Le projet sera lancé le 1er décembre, et Jérôme aborde la planification avec quelques inquiétudes. L’entreprise sera en effet fermée les 25 et 26 décembre, de même que le 1er et le 2 janvier. Cela représente quatre jours de travail en moins, presque une semaine (et même quarante-quatre jours de charge si l’on comptabilise le potentiel pour toute l’équipe).
+
+À l’aide de MS Project, Jérôme tient compte de ces jours non travaillés.
+
+Le premier sprint est assez simple à planifier, car toutes les activités n’ont pas encore démarré :
+
+![Alt text](image-22.png)
+
+Pour le second sprint, Jérôme fait tourner son effectif de développement :
+
+![Alt text](image-23.png)
+
+Le troisième sprint est plus délicat, car Jean-Luc n’est pas disponible au moment où le développement devrait commencer. Jérôme n’a d’autre choix que de décaler le début du développement confié à Jean-Luc, Antoine et Amandine étant par ailleurs occupés par d’autres tâches.
+
+Pour tenter d’éviter d’accumuler du retard, les tests d’intégration démarrent avant la fin du développement du sprint :
+
+![Alt text](image-24.png)
+
+3. Analyse des périodes critiques
+   La fin de projet est assez compliquée, car les risques de retard ont tendance à s’amplifier durant cette phase. Or le troisième sprint ne comporte pas de « tampon » durant lequel des retards pourraient être compensés.
+
+Comme Jérôme est très pris par ses obligations, il ne peut pas participer à certains développements mais il verrait là le moyen de sécuriser son planning. JP et Dan constatent que le planning tient sur treize semaines et s’en tiennent à cette version. Jean-Luc propose à Jérôme d’embaucher un développeur supplémentaire, cependant le budget est déjà en léger dépassement. Mais l’idée fait son chemin et c’est Annabelle qui participera de façon temporaire au développement et aux corrections de bugs.
+
+![Alt text](image-25.png)
+Dans cette nouvelle organisation, Jérôme a introduit une semaine de tampon qui peut être mise à profit pour compenser des retards sur le développement. La période de correction de bugs court jusqu’au dernier jour du projet. Jérôme indique aussi sur le planning la date limite de prise en compte de bugs (le 25 février), ce qui laisse deux jours aux développeurs pour corriger les dernières anomalies et aux testeurs pour vérifier leur fonctionnement.
+
+Cette version satisfait JP et Dan car elle ne dépasse pas les treize semaines initiales mais limite le risque en fin de projet.
