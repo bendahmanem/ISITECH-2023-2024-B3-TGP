@@ -698,25 +698,59 @@ Sur le tableau de bord de Kanban, des chiffres indiquent les capacités de chaqu
 
 ![Alt text](image-9.png)
 
-b. Flux continu
+**b. Flux continu**
 L’élimination des stocks et la production juste à temps sont l’essence même du lean management. Appliquées aux projets informatiques, les fonctionnalités sont publiées dès qu’elles sont réalisées, les releases étant cadencées selon les critères de l’équipe et en fonction des besoins client.
 
 Plus encore qu’avec Scrum, le recours à des systèmes d’intégration continue, de tests automatiques et de publication rapide est primordial dans la mise en œuvre de projets agiles au format Kanban.
 
-c. Pas de rôles
+**c. Pas de rôles**
 En tant que système d’organisation et de planification, Kanban ne définit pas de rôles. L’équipe régule le flux de traitement des tâches selon ses propres capacités et peut faire appel à un coach agile pour la guider.
 
 Cependant, les principaux rôles d’un projet agile trouvent naturellement leur place dans le dispositif : product management, delivery management, design management, et bien entendu développement ou testing.
 
-d. Lead time plutôt que vélocité
+**d. Lead time plutôt que vélocité**
 Chaque format de projet possède une métrique qui le caractérise : le respect QCD pour le modèle en cascade, la vélocité pour le Scrum, et pour Kanban, qui se trouve à l’opposé des méthodes classiques, le lead time.
 
 Le lead time exprime le temps entre la commande et la livraison, délai que l’on souhaite le plus court possible pour éviter le risque d’un changement, voire d’une annulation. Cette métrique est à rapprocher du takt time qui exprime la pression des attentes client (rythme de livraison attendu).
 Dans le cas de Scrum, la vélocité est une mesure de la performance de l’équipe. Elle est donc plutôt similaire au temps de cycle, qui traduit le délai entre la première et la dernière opération pour réaliser un produit fini. Le temps de cycle comme la vélocité dépendent de la capacité de l’équipe à livrer dans un contexte donné, alors que le lead time est résolument destiné à maximiser la satisfaction du client.
 
-e. Des changements à tout moment
+**e. Des changements à tout moment**
 Dans un projet réalisé avec un niveau de charge assez élevé, les équipes ont un réflexe répandu qui consiste à avancer au maximum la production intermédiaire, en menant toutes les activités en parallèle. Ce qui est fait n’est plus à faire, entend-on souvent.
 
 En fait, loin d’être efficace, cette approche paralyse le système de production, qui n’admet plus aucun changement de priorité et qui ne trouve jamais la ressource nécessaire pour se réformer.
 
 À commencer par les exigences client dont le flux ne peut être totalement contrôlé, les changements de priorité surviennent constamment. Là encore, Kanban se distingue de Scrum par sa dynamique de production tournée vers le client (le flux tiré) et sa production juste à temps (just in time ou JIT). L’écart entre la capacité de production nominale et la demande client constitue un gisement de temps inépuisable pour s’améliorer ou ajuster la production à la demande instantanée.
+
+## **1 Les outils agiles**
+
+### Un systeme integre de gestion de projet:
+
+- Jira
+- Azure DevOps
+- Trello
+
+![Alt text](image-10.png)
+
+### Un outil de planification
+
+Même si les coûts ont considérablement baissé (Azure DevOps est accessible gratuitement en version Community), l’adoption d’un système intégré n’est pas un prérequis. Les équipes se contentent parfois d’un backlog maintenu à l’aide d’un tableur et d’un outil de planification ad hoc.
+
+La plateforme en ligne Smartsheet propose un tableau de bord pour projets agiles à personnaliser de façon très simple.
+
+### **2. Testing**
+Les méthodes agiles concrétisent tout leur potentiel lorsque les anomalies (écarts, bugs) sont à la fois identifiées et corrigées rapidement. Pour cette raison, les technologies employées mettent largement l’accent sur l’activité de tests.
+
+Les tests unitaires sont quasiment toujours automatisés, déclenchés lorsque le développeur tente d’archiver son code sur une branche de développement. En cas d’échec du test, l’archivage du code est normalement refusé. Ce mode de fonctionnement constitue une pratique saine et évite les allers-retours entre les équipes de test et celles de développement, minimisant par là même les tensions liées à la validité des tests unitaires.
+Dans le monde Java, les frameworks de tests unitaires Swagger, Cucumber, Mockito ou Gerrit (revue de code) sont fréquemment utilisés. Ces frameworks sont parfois portés dans d’autres environnements (PHP, .NET...), même s’ils ne sont alors pas toujours aussi performants que des outils natifs. Microsoft propose aussi un système de tests automatisés très complet, tant destiné aux parties basses des architectures (des services web) que hautes (des interfaces graphiques).
+
+Pour des tests d’intégration et des scénarios plus complexes faisant intervenir des interfaces graphiques, il existe des solutions open source telles que Selenium ou Robot Framework, mais aussi des suites logicielles commerciales très puissantes comme Test Complete, Mercury, Test Director...
+Au-delà de l’outillage, l’activité de test dans un projet agile est primordiale. La conception des scénarios de test, des jeux d’essai, résulte souvent d’une contribution multiple. Le product owner, le client, les membres de l’équipe QA (Quality Assurance), le delivery management mettent en commun leur connaissance du produit et du métier pour élaborer les cas de test.
+
+Mais le travail de préparation ne s’arrête pas là. La réalisation d’un test automatisé nécessite aussi des connaissances techniques proches du développement, même avec un logiciel de haut niveau. Dans ce cas, le corpus des cas de test (test cases) constitue un véritable actif applicatif qu’il faut entretenir au fil des sprints et des projets.
+
+### **3. Intégration continue**
+Il n’y a pas que les tests qui soient automatisés. Les projets agiles mettent en œuvre des architectures complexes réalisées à partir de plusieurs technologies. Toute la chaîne de compilation (build, release) requiert plusieurs étapes avec des fichiers de configuration spécifiques à chaque environnement : développement, intégration, recette, préproduction, tests de charge, production...
+
+Les architectures Java sont souvent desservies par Jenkins, orchestrateur capable de déclencher des builds Ant ou Maven (technologies de production de version logicielle), de déployer, de lancer des tests unitaires et de contrôler le flux d’exécution en fonction des codes de retour de chaque étape. D’autres plateformes font également leur apparition, les écosystèmes se faisant toujours plus complets selon la logique de la tache d’huile qui recouvre tout l’espace disponible.
+
+Microsoft intègre aussi une version répartie de MS-Build capable de compiler en local ou en ligne, et même de déployer sur Azure.
